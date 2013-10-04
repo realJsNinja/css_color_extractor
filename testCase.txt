@@ -1,0 +1,8 @@
+background-color: #000000
+	[h2, div.steve]
+	
+background-color: #CCCCCC
+	[h1, div.nick]
+	
+div.nick { color: red }
+div.nick { background-color: #000000 }
