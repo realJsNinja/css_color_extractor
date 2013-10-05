@@ -1,0 +1,30 @@
+{
+  "name": "css_color_extractor",
+  "version": "0.0.1",
+  "description": "A CSS parser for nodejs that extracts declarations that contain color information and return that information in formatted CSS.",
+  "main": "css_color_extractor.js",
+  "dependencies": {
+    "css": "~1.4.2",
+    "jscssp": "~0.5.0",
+    "stringify-object": "~0.1.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JQNinja/css_color_extractor"
+  },
+  "keywords": [
+    "css",
+    ""
+  ],
+  "author": "Steve Miller",
+  "license": "Mozilla Public License, version 2.0",
+  "readmeFilename": "README.md",
+  "gitHead": "4a9f0dde49e33d09d1c52c51e82335d80d922cab",
+  "bugs": {
+    "url": "https://github.com/JQNinja/css_color_extractor/issues"
+  }
+}
