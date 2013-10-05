@@ -1,5 +1,4 @@
-var jscssp = require('jscssp');
-var fs = require('fs');
+var jscssp = require('./lib/jscssp');
 var stringifyObject = require('stringify-object');
 var css = require('css');
 
@@ -21,24 +20,17 @@ var ruleTypes = {
 };
 
 var supportedRuleTypes = [ruleTypes.style, ruleTypes.media];
+
+//Pass these in?
 var lookupRules = ["color"];
-var excludedRules = ["-moz-initial", "transparent"]
+var excludedRules = ["-moz-initial", "transparent"];
 
-fs.readFile('./test_css/main.css', 'utf8', function (err,data) {
-  if (err) {
-    return console.log(err);
-  }
-  finalRulesets = parseStyleSheet(data, prettyPrint); //This is as far as I've gotten
-  
-});
-
-
-
-function parseStyleSheet(styleSheetText, callback){
+function extractCss(styleSheetText, callback){
 	var parser = new jscssp.CSSParser();
 	var normalizeStyleSheetText = normalizeStyleSheet(styleSheetText);
 	var styleSheet = parser.parse(normalizeStyleSheetText, false, true);
-
+	//prettyPrint(styleSheet);
+	
 	var cssRules = styleSheet.cssRules;
 	var finalRulesets = [];
 	var currentRulesetIndex = 0;
@@ -63,15 +55,30 @@ function parseStyleSheet(styleSheetText, callback){
 		}
 	}
 	
+	var cssText = stringifyRulesets(finalRulesets);
 	
 	if (typeof(callback) == "function"){
-		callback(finalRulesets);
+		callback(cssText);
 	}
+	else{
+		return cssText;
+	}
+}
+
+function stringifyRulesets(finalRulesets){
+	var cssText = "";
+	for(var fri=0, friMax = finalRulesets.length; fri < friMax; fri++){
+		var result = finalRulesets[fri];
+		cssText += result.stringify();
+	}
+	cssText = normalizeStyleSheet(cssText);
+	return cssText;
 }
 
 function normalizeStyleSheet(styleSheetText){
 	var obj = css.parse(styleSheetText);
-	return css.stringify(obj);
+	var normalizedText = css.stringify(obj);
+	return normalizedText;
 }
 
 function extractMedia(media){
@@ -81,10 +88,8 @@ function extractMedia(media){
 	return "";
 }
 
-
-
 function addStyleRule(cssRule, currentRuleset){
-	var selector = cssRule.mSelectorText;
+	
 	var allRules;
 	
 	if(cssRule.declarations !== undefined) {
@@ -103,6 +108,8 @@ function addStyleRule(cssRule, currentRuleset){
 		if(!declarations){
 			continue;
 		}
+		
+		var selector = rule.mSelectorText;
 		for(var current=0, currentMax = declarations.length; current < currentMax; current++){
 			var declaration = declarations[current];
 			
@@ -153,11 +160,11 @@ function StyleRule(declaration){
 		}
 	}
 	this.stringify = function(){
-		if(selectorSet.length > 0){
+		if(this.selectors.length > 0){
 			var selectorSet = this.selectors.join(",");
 			return selectorSet + "{" + this.declaration + "}";
 		}
-		throw "No selectors for declaration: " + this.declaration;
+		return "";
 	}
 
 }
@@ -190,77 +197,20 @@ function StyleRuleSet(media){
 	}
 	
 	this.stringify = function(){
-		prettyPrint(this);
-	}
-
-}
-
-
-
-function parseMediaQuery(selector){
-	//console.log("Media Query: "+ selector);
-	var mediaQueryRules = css.parse(selector);
-	//prettyPrint(mediaQueryRules);
-	var mediaQueryInnerRuleText = "";
-	var styleRules = mediaQueryRules.stylesheet.rules;
-	
-	//console.log(styleRules.length);
-	for(var srIndex = 0, styleRulesMax = styleRules.length; srIndex < styleRulesMax; srIndex++){
-		var styleRule = styleRules[srIndex];
-		var mQuery = new MediaQuery("@media " + styleRule.media);
-		//console.log("starting mq: " + styleRule.media);
-		
-		var mediaRules = styleRule.rules;
-		for(var mrIndex = 0, mediaRulesMax = mediaRules.length; mrIndex < mediaRulesMax; mrIndex++){
-			var mediaRule = mediaRules[mrIndex];
-			var mediaRuleStringified = stringifyMediaRule(mediaRule);
-			//console.log("Rule explained: ");
-			//prettyPrint(mediaRuleStringified);
-			var mediaRuleExpanded = parser.parse(mediaRuleStringified);
-			
-			//prettyPrint(mediaRuleExpanded);
-			//console.log(mediaRuleExpanded.cssText());
+		var cssText = "";
+		for(var i=0, max=this.styleRules.length; i < max; i++){
+			var styleRule = this.styleRules[i];
+			cssText += styleRule.stringify();
 		}
 		
-		
-	}
-	
-}
-
-function stringifyMediaRule(rule){
-	//console.log("starting");
-	//console.log(rule.type);
-	if(rule.type === "rule"){
-		var selector = rule.selectors.join(",") + "{ ";
-		var declarations = rule.declarations;
-		for(var i=0, max = declarations.length; i<max; i++){
-			selector += declarations[i].property + ": " + declarations[i].value + "; ";
+		if(this.media != ""){
+			cssText = "@media " + this.media + " {" + cssText + " }";
 		}
-		selector += " }";
-		return selector;
+		
+		return cssText;
 	}
-	return "";
+
 }
-
-
-// var outputCss = "";
-// for(var colorRuleKey in finalCssRules){
-	// var colorRuleSelectors = finalCssRules[colorRuleKey];
-	
-	// var colorDeclaration = colorRuleKey;
-	// var pos = colorDeclaration.lastIndexOf(';');
-	// if(pos != -1){
-		// colorDeclaration = colorDeclaration.substring(0,pos);
-	// }
-
-	// var selectorSet = colorRuleSelectors.join(",");
-	// outputCss += selectorSet + "{" + colorDeclaration + "}";
-// }
-
-// console.log(outputCss);
-// console.log(css.stringify(css.parse(outputCss)));
-
-
 
 function inArray(val, arr) {
     for(var i = 0, max = arr.length; i < max; i++) {
@@ -279,3 +229,6 @@ function prettyPrint(obj){
 
 
 
+if (typeof exports != "undefined") {
+  exports.extractCss = extractCss;
+}

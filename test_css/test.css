@@ -35,8 +35,20 @@ H2{
     width: 500px; 
     height: 20px; 
   } 
-  h4.steve .jack li { 
+  h4.adrian .jack li { 
     background: #CCCCCC; 
     font-family: Helvetica,Georgia,Serif;
   }
+}
+
+@media screen and (max-width: 1039px)
+{
+    #ListIndex li
+    {
+        background-color: -linear-gradient(top, #FFFFFF, #badef4);
+        background-color: -webkit-linear-gradient(top, #FFFFFF, #badef4);
+        background-color: -ms-linear-gradient(top, #FFFFFF, #badef4);
+        background-color: -o-linear-gradient(top, #FFFFFF, #badef4);
+        background-color: -moz-linear-gradient(top, #FFFFFF, #badef4);
+    }
 }
