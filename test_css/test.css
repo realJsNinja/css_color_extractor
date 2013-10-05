@@ -1,0 +1,42 @@
+ul li a  { 
+  background: #000000; 
+  font-size: 1.2em; 
+  font-family: "Times New Roman",Georgia,Serif ;
+} 
+
+body .steve .joe    #nick { 
+  background: #000000; 
+  border: solid red 1px; 
+} 
+
+H1{ 
+  font-size: 24px; 
+  color: #FF0000; 
+} 
+
+H2{ 
+  font: 12px; 
+  background-color: #000000; 
+} 
+
+@keyframes my_anim { from { opacity: 1; } to { opacity: 0; } }
+
+@media screen AND (max-width: 500px) { 
+  body { 
+    background: #f0f0f0; 
+    width: 500px; 
+    height: 20px; 
+  }
+} 
+
+@media tv and (min-width: 700px) and (orientation: landscape) { 
+  h3 { 
+    background: #f0f0f0; 
+    width: 500px; 
+    height: 20px; 
+  } 
+  h4.steve .jack li { 
+    background: #CCCCCC; 
+    font-family: Helvetica,Georgia,Serif;
+  }
+}
