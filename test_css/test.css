@@ -4,20 +4,48 @@ ul li a  {
   font-family: "Times New Roman",Georgia,Serif ;
 } 
 
-body .steve .joe    #nick { 
-  background: #000000; 
+body 
+.steve
+.joe    
+#nick { 
+  background: #C00; 
   border: solid red 1px; 
+  color: gray;
+  
 } 
 
 H1{ 
   font-size: 24px; 
   color: #FF0000; 
+  border: dashed rgb(24, 25, 26) 2px;
 } 
 
 H2{ 
   font: 12px; 
   background-color: #000000; 
-} 
+  background: #BADA55;
+}
+
+.rgb-color{
+	border-top-color: #CCC;
+	background: rgb(12, 0, 255);
+}
+
+.rgba-color{
+	background: rgba(100, 200, 3, 0.5);
+}
+
+.hsl-color{
+	background: hsl(150, 20%, 60%);
+}
+
+.hsl-color2{
+	background: hsl(150, 20%, 60%);
+}
+
+.hsla-color{
+	background: hsla(170, 50%, 45%, 1);
+}
 
 @keyframes my_anim { from { opacity: 1; } to { opacity: 0; } }
 
@@ -45,10 +73,10 @@ H2{
 {
     #ListIndex li
     {
-        background-color: -linear-gradient(top, #FFFFFF, #badef4);
         background-color: -webkit-linear-gradient(top, #FFFFFF, #badef4);
         background-color: -ms-linear-gradient(top, #FFFFFF, #badef4);
         background-color: -o-linear-gradient(top, #FFFFFF, #badef4);
         background-color: -moz-linear-gradient(top, #FFFFFF, #badef4);
+		background-color: linear-gradient(top, #FFFFFF, #badef4);
     }
 }

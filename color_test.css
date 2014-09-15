@@ -1,0 +1,1462 @@
+a:focus,
+input:focus,
+*[tabindex]:focus {
+  outline-color: #99dff9;
+}
+
+.HwElement,
+.HwCommonDialog #HwDialogElementBodyWrapper,
+#HwMediaDialogContentMediaWrapper,
+.HwMediaGalleryImageWrapper,
+.HwMediaScrollImageWrapper,
+.HwCommonDialog #HwDialogElementBodyWrapper,
+#HwMediaGalleryWindow,
+.HwVideoLibraryContainer div#HwSearchWrapper,
+.HwVideoSearchBarInputWrapper,
+a.HwMainSkipNavigation:focus .HwAccessibilityText,
+a.HwMainSkipNavigation:active .HwAccessibilityText,
+.HwLandingBrowseContent,
+.HwLandingQuickLinks,
+.HwConditionCenterContentInner,
+.HwCamInteractionGroup ul>li,
+.HwNciTableWrapper table,
+.HwNciTableWrapper table th,
+.HwNciTableWrapper table td {
+  background-color: #ffffff;
+}
+
+.HwElement,
+.HwElement h1,
+.HwElement h3,
+.HwElement h4,
+.HwNavigationSection h2.HwSectionTitle,
+#HwMediaDialogCreditsBar #HwMediaDialogCreditsBarButton,
+.HwNavigationItemCurrent a,
+.HwContent h2,
+#HwListTitle,
+.HwOrgTitle {
+  color: #000000;
+}
+
+.HwNavigationSection h2.HwSectionTitle,
+.HwPlayLinkStandaloneWrapper img.HwVideosFrameBlockThumbnailImage,
+.HwContent h2,
+#HwSearchResultsSpecial,
+.HwSearchNoResults,
+.HwNciTableWrapper table {
+  border-bottom-color: #000000;
+}
+
+.HwElement a,
+.HwCamInteractionListItem>span {
+  color: #015c9a;
+}
+
+#HwDialogElementCloseButton:focus,
+a.HwMediaScrollNavigation:focus {
+  outline-color: #000000;
+}
+
+#HwModalDialogOverlay {
+  background-color: #1a1a1a;
+}
+
+#HwDialogElement,
+#HwDialogElementButtonWrapper,
+#HwMediaGalleryBox,
+#HwDialogElement {
+  background-color: #ede9e5;
+}
+
+#HwDialogElementBodyWrapper,
+.HwMediaScrollWindow,
+#HwMediaDialogContentTextWrapper {
+  background-color: #d8d5d4;
+}
+
+#HwDialogElementBodyWrapper,
+#HwMediaGalleryWindowWrapper,
+.HwMediaGalleryImageWrapper,
+.HwMediaScrollWindow,
+.HwMediaScrollImageWrapper,
+.HwCurrentMediaScrollImageWrapper,
+.HwMediaDialogControlNumberWrapper,
+#HwDialogElementBodyWrapper,
+#HwMediaDialogCredits,
+#HwMediaDialogControlWrapper,
+#HwMediaDialogControlForwardWrapper,
+#HwMediaDialogControlBackWrapper,
+#HwMediaDialogContentTextWrapper,
+#HwMediaDialogContentMobileTextWrapper {
+  border-top-color: #a8a9ac;
+}
+
+#HwDialogElementBodyWrapper,
+#HwMediaGalleryWindowWrapper,
+.HwMediaGalleryImageWrapper,
+.HwMediaScrollWindow,
+.HwMediaScrollImageWrapper,
+.HwCurrentMediaScrollImageWrapper,
+.HwMediaDialogControlNumberWrapper,
+#HwDialogElementBodyWrapper,
+#HwMediaDialogCredits,
+#HwMediaDialogControlWrapper,
+#HwMediaDialogControlForwardWrapper,
+#HwMediaDialogControlBackWrapper,
+#HwMediaDialogContentTextWrapper,
+#HwMediaDialogContentMobileTextWrapper {
+  border-right-color: #a8a9ac;
+}
+
+#HwDialogElementBodyWrapper,
+#HwMediaGalleryWindowWrapper,
+.HwMediaGalleryImageWrapper,
+.HwMediaScrollWindow,
+.HwMediaScrollImageWrapper,
+.HwCurrentMediaScrollImageWrapper,
+.HwMediaDialogControlNumberWrapper,
+#HwDialogElementBodyWrapper,
+#HwMediaDialogCredits,
+#HwMediaDialogControlWrapper,
+#HwMediaDialogControlForwardWrapper,
+#HwMediaDialogControlBackWrapper,
+#HwMediaDialogContentTextWrapper,
+#HwMediaDialogContentMobileTextWrapper {
+  border-bottom-color: #a8a9ac;
+}
+
+#HwDialogElementBodyWrapper,
+#HwMediaGalleryWindowWrapper,
+.HwMediaGalleryImageWrapper,
+.HwMediaScrollWindow,
+.HwMediaScrollImageWrapper,
+.HwCurrentMediaScrollImageWrapper,
+.HwMediaDialogControlNumberWrapper,
+#HwDialogElementBodyWrapper,
+#HwMediaDialogCredits,
+#HwMediaDialogControlWrapper,
+#HwMediaDialogControlForwardWrapper,
+#HwMediaDialogControlBackWrapper,
+#HwMediaDialogContentTextWrapper,
+#HwMediaDialogContentMobileTextWrapper {
+  border-left-color: #a8a9ac;
+}
+
+.HwMediaScrollImageWrapper:hover .HwMediaScrollImageIcon,
+.HwMediaScrollImageWrapper:focus .HwMediaScrollImageIcon,
+.HwMediaScrollImageWrapper:active .HwMediaScrollImageIcon,
+.HwMediaScrollImageWrapper:hover .HwMediaScrollImageIconMediaType_video,
+.HwMediaScrollImageWrapper:focus .HwMediaScrollImageIconMediaType_video,
+.HwMediaScrollImageWrapper:active .HwMediaScrollImageIconMediaType_video,
+.HwMediaScrollImageWrapper:hover .HwMediaScrollImageIconMediaType_slideshow,
+.HwMediaScrollImageWrapper:focus .HwMediaScrollImageIconMediaType_slideshow,
+.HwMediaScrollImageWrapper:active .HwMediaScrollImageIconMediaType_slideshow,
+#HwMediaDialogContentMediaWrapper.HwMediaDialogContentMediaVideoWrapper,
+#HwMediaDialogContentMediaWrapper .HwMediaDialogContentMediaVideo,
+.HwMediaScrollImageWrapper:hover,
+.HwMediaScrollImageWrapper:focus,
+.HwMediaScrollImageWrapper:active,
+#HwMediaDialogCredits,
+.HwVideoDialogElement #HwMediaDialogContentWrapper,
+#HwMediaDialogContentVideoWrapper {
+  background-color: #000000;
+}
+
+.HwCurrentMediaScrollImageWrapper .HwMediaScrollImageIcon,
+.HwCurrentMediaScrollImageWrapper:hover .HwMediaScrollImageIcon,
+.HwCurrentMediaScrollImageWrapper:focus .HwMediaScrollImageIcon,
+.HwCurrentMediaScrollImageWrapper:active .HwMediaScrollImageIcon,
+.HwCurrentMediaScrollImageWrapper .HwMediaScrollImageIconMediaType_video,
+.HwCurrentMediaScrollImageWrapper:hover .HwMediaScrollImageIconMediaType_video,
+.HwCurrentMediaScrollImageWrapper:focus .HwMediaScrollImageIconMediaType_video,
+.HwCurrentMediaScrollImageWrapper:active .HwMediaScrollImageIconMediaType_video,
+.HwCurrentMediaScrollImageWrapper .HwMediaScrollImageIconMediaType_slideshow,
+.HwCurrentMediaScrollImageWrapper:hover .HwMediaScrollImageIconMediaType_slideshow,
+.HwCurrentMediaScrollImageWrapper:focus .HwMediaScrollImageIconMediaType_slideshow,
+.HwCurrentMediaScrollImageWrapper:active .HwMediaScrollImageIconMediaType_slideshow,
+.HwCurrentMediaGalleryImageWrapperHighlight,
+.HwCurrentMediaScrollImageWrapper:hover,
+.HwCurrentMediaScrollImageWrapper:active,
+.HwCurrentMediaScrollImageWrapper:focus,
+.HwCurrentMediaScrollImageWrapper {
+  background-color: #056799;
+}
+
+#HwMediaDialogTitle,
+.HwMediaDialogControlNumber,
+#HwMediaDialogCredits,
+a.HwVideoBarSelected:hover .HwVideoBarText,
+.HwVideoLibraryFilterBarBody a.HwVideoBarSelected,
+a.HwVideoBarSelected .HwVideoBarText,
+#HwVideoSearchBarInputGoButton,
+#HwVideoSearchBarInputGoButton:hover,
+#HwListIndex .HwIndexItemCurrent,
+#HwListIndex .HwNumberItemCurrent,
+a.HwLandingMenuItemText,
+.HwLandingBrowseHeader,
+.HwLandingLinksHeader,
+.HwiToolWrapper input[type="submit"].HwSearchButton,
+input.HwSearchButton,
+input.HwHomeButton,
+.HwTypeITool .HwContentHeader,
+.HwTypeConditionCenter .HwContentHeader,
+.HwTypeDecisionPoint .HwContentHeader,
+.HwTypeSymptom .HwContentHeader,
+.HwMedicalTestSynonyms,
+.HwCamShadedTable th,
+.HwCamInteractionGroup>h3,
+div.HwPersonalStoriesWindowLink a {
+  color: #ffffff;
+}
+
+#HwMediaGalleryHeaderTitle,
+#HwMediaGalleryHeaderSubtitle,
+#HwMediaDialogHeadingText,
+#HwMediaDialogContentText,
+#HwMediaDialogContentMobileText {
+  color: #231f20;
+}
+
+#HwMediaGalleryWindowTitle {
+  color: #046799;
+}
+
+#HwMediaDialogControlWrapper {
+  background-color: #5a595e;
+}
+
+.HwMediaDialogControlNumberWrapper:focus {
+  background-color: #a8a9ac;
+}
+
+#HwMediaDialogTitleWrapper,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapper:hover,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapperSelected,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapperSelected:focus,
+.HwLandingBrowseHeader,
+.HwLandingLinksHeader,
+.HwTypeITool .HwContentHeader,
+.HwTypeConditionCenter .HwContentHeader,
+.HwTypeDecisionPoint .HwContentHeader,
+.HwTypeSymptom .HwContentHeader {
+  background-color: #5192b3;
+}
+
+.HwMediaGalleryImageCover:focus,
+a.HwVideoBar:focus {
+  outline-color: #ffffff;
+}
+
+.HwVideoCategoryContainer .HwCategoryListContent a:hover,
+.HwVideoLibraryContainer .HwSearchWrapper a:hover,
+.HwVideosFrameBlockTitle:hover,
+h3.HwVideoBreadcrumbText a:hover {
+  color: #003366;
+}
+
+div.HwCategoryListOuterBorder {
+  background-color: inherit;
+}
+
+.HwVideoLibraryContentArea,
+.HwVideoCategoryContainer,
+.HwDisclaimer,
+.HwAfterVisit .HwLegal,
+.HwPI-Post-Op .HwLegal,
+.HwPI-Pre-Op .HwLegal,
+.HwPI-Pre-Test .HwLegal {
+  border-top-color: #cccccc;
+}
+
+.HwVideoLibraryContentArea,
+.HwVideoCategoryContainer {
+  border-right-color: #cccccc;
+}
+
+.HwVideoLibraryContentArea,
+.HwVideoCategoryContainer {
+  border-bottom-color: #cccccc;
+}
+
+.HwVideoLibraryContentArea,
+.HwVideoCategoryContainer {
+  border-left-color: #cccccc;
+}
+
+.HwVideoLibraryContainer .HwSearchWrapper,
+.HwVideosFrameBlockTitle,
+.HwVideoCategoryContainer .HwCategoryListContent a,
+h3.HwVideoBreadcrumbText a {
+  color: #3399cc;
+}
+
+.HwHighlightedVideosTitleText,
+a.HwVideoBar:hover .HwVideoBarText,
+.HwVideoSearchBarLabel {
+  color: #ff6600;
+}
+
+.HwHighlightedVideosSubText,
+.HwVideoSearchBarInputVideoLabel {
+  color: #666666;
+}
+
+.HwHighlightedVideosSubText {
+  border-bottom-color: #666666;
+}
+
+.HwHighlightedVideosSubTitle {
+  color: #336699;
+}
+
+.HwVideosFrameBlockDuration,
+.HwElement h3.HwVideoBreadcrumbText {
+  color: #333333;
+}
+
+.HwFilterByText {
+  color: #999999;
+}
+
+a.HwVideoBar {
+  background-color: #454545;
+}
+
+a.HwVideoBar .HwVideoBarText {
+  color: #cccccc;
+}
+
+.HwVideoLibraryFilterBarBody {
+  background-color: #999999;
+}
+
+.HwVideoBarLeft,
+.HwVideoBarRight {
+  background-color: #313131;
+}
+
+.HwVideoBarRight {
+  background-color: #5e5e5e;
+}
+
+.HwVideoLibraryFilterBarBody a.HwVideoBarSelected {
+  background-color: #ff6600;
+}
+
+.HwVideoBarLeftSelected {
+  background-color: #e95f03;
+}
+
+.HwVideoBarRightSelected {
+  background-color: #c42b00;
+}
+
+img.HwVideosFrameBlockThumbnailImage {
+  border-top-color: #999999;
+}
+
+img.HwVideosFrameBlockThumbnailImage {
+  border-right-color: #999999;
+}
+
+img.HwVideosFrameBlockThumbnailImage {
+  border-bottom-color: #999999;
+}
+
+img.HwVideosFrameBlockThumbnailImage {
+  border-left-color: #999999;
+}
+
+.HwPlayLinkStandaloneWrapper img.HwVideosFrameBlockThumbnailImage,
+#HwSearchResultsFooter,
+.HwNciTableWrapper table {
+  border-top-color: #000000;
+}
+
+.HwPlayLinkStandaloneWrapper img.HwVideosFrameBlockThumbnailImage,
+.HwNciTableWrapper table {
+  border-right-color: #000000;
+}
+
+.HwPlayLinkStandaloneWrapper img.HwVideosFrameBlockThumbnailImage,
+.HwContentMenu ul li+li,
+.HwNciTableWrapper table {
+  border-left-color: #000000;
+}
+
+.HwVideoSearchBarInputWrapper {
+  border-top-color: #dadada;
+}
+
+.HwVideoSearchBarInputWrapper,
+.HwVideoSearchBarInputVideoLabel {
+  border-right-color: #dadada;
+}
+
+.HwVideoSearchBarInputWrapper {
+  border-bottom-color: #dadada;
+}
+
+.HwVideoSearchBarInputWrapper,
+#HwVideoSearchBarInputGoButton {
+  border-left-color: #dadada;
+}
+
+.HwVideoSearchBarInputVideoLabel {
+  background-color: #f2f2f2;
+}
+
+.HwVideoSearchBarInputVideoLabel {
+  border-top-color: #f2f2f2;
+}
+
+.HwVideoSearchBarInputVideoLabel {
+  border-right-color: #f2f2f2;
+}
+
+.HwVideoSearchBarInputVideoLabel {
+  border-bottom-color: #f2f2f2;
+}
+
+.HwVideoSearchBarInputVideoLabel {
+  border-left-color: #f2f2f2;
+}
+
+#HwVideoSearchBarInputGoButton {
+  background-color: #3399cc;
+}
+
+#HwVideoSearchBarInputGoButton {
+  border-top-color: #3399cc;
+}
+
+#HwVideoSearchBarInputGoButton {
+  border-right-color: #3399cc;
+}
+
+#HwVideoSearchBarInputGoButton {
+  border-bottom-color: #3399cc;
+}
+
+#HwVideoSearchBarInputGoButton {
+  border-left-color: #3399cc;
+}
+
+.HwVideoBarSearchIcon {
+  border-left-color: #313131;
+}
+
+.HwVideoBarSelected .HwVideoBarSearchIcon {
+  border-left-color: #cb3727;
+}
+
+#HwCategoryListOverlay {
+  background-color: #666666;
+}
+
+.HwNoVideoSearchResultsLabel {
+  color: #3f100b;
+}
+
+.HwTypeActionset h2.HwSectionTitle,
+.HwOrgTitle {
+  border-bottom-color: #d8d0c7;
+}
+
+.HwContentMenu {
+  color: blue;
+}
+
+.HwContentMenu ul,
+.HwSearchResultsHeaderBox {
+  background-color: #efe9e5;
+}
+
+#HwFooter {
+  color: #58595b;
+}
+
+#HwListIndex li,
+.HwTopicsList li {
+  background-color: #bfd6e3;
+}
+
+#HwListIndex li,
+.HwTopicsList li {
+  border-top-color: #99ccff;
+}
+
+#HwListIndex li,
+.HwTopicsList li {
+  border-right-color: #99ccff;
+}
+
+#HwListIndex li,
+.HwTopicsList li {
+  border-bottom-color: #99ccff;
+}
+
+#HwListIndex li,
+.HwTopicsList li {
+  border-left-color: #99ccff;
+}
+
+#HwListIndex a:visited,
+#HwListSubIndex a:visited,
+.HwListSection a:visited,
+.HwCategoryList li a:visited,
+.HwTopicsList a:visited,
+#HwSearchContent a:visited {
+  color: #61116a;
+}
+
+#HwListIndex .HwIndexItemCurrent {
+  background-color: #fdc652;
+}
+
+.HwListIndexInner,
+.HwListSectionHeader,
+.HwLandingMenu,
+.HwLandingBrowseLinksWrapper,
+.HwLandingBrowseLinksWrapperOuterBorder,
+.HwCamShadedTable .HwCamShadedTableOddChild,
+.HwCamInteractionGroup ul>.HwCamInteractionListItemEvenChild {
+  background-color: #f1edea;
+}
+
+#HwListSubIndex {
+  border-bottom-color: #7d6a55;
+}
+
+.HwCategoryList,
+.HwConditionCenterClosed,
+.HwConditionCenterOpen {
+  background-color: #eef4f8;
+}
+
+.HwCategoryListOuterBorder {
+  background-color: #c9dee7;
+}
+
+.HwTypeLanding .HwBrand {
+  color: #7d6a55;
+}
+
+.HwLandingMenu {
+  background-color: #f0f0f0;
+}
+
+.HwLandingMenu {
+  border-top-color: #f1edea;
+}
+
+.HwLandingMenu {
+  border-right-color: #f1edea;
+}
+
+.HwLandingMenu,
+.HwLandingBrowseContent {
+  border-bottom-color: #f1edea;
+}
+
+.HwLandingMenu {
+  border-left-color: #f1edea;
+}
+
+.HwTopicsList ol {
+  border-top-color: #ffffff;
+}
+
+#HwSearchContent a,
+a:visited .HwSearchLinkNext,
+a:visited .HwSearchLinkPrev {
+  color: #006699;
+}
+
+.HwEmergencyNumber,
+.Red {
+  color: #FF0000;
+}
+
+.HwConditionCenterClosedAction,
+.HwConditionCenterOpenAction {
+  background-color: #cadee8;
+}
+
+table.HwDrugNames tr,
+table.HwDrugNames td {
+  border-top-color: #5192b3;
+}
+
+table.HwDrugNames tr,
+table.HwDrugNames td {
+  border-right-color: #5192b3;
+}
+
+table.HwDrugNames tr,
+table.HwDrugNames td {
+  border-bottom-color: #5192b3;
+}
+
+table.HwDrugNames tr,
+table.HwDrugNames td {
+  border-left-color: #5192b3;
+}
+
+.HwCamShadedTable th,
+.HwCamInteractionGroup>h3 {
+  background-color: #808080;
+}
+
+.HwCamShadedTable td,
+table.HwCamShadedTable,
+.HwCamDrugInteractionsLegend,
+.HwCamInteractionGroup,
+.HwNciTableWrapper table th,
+.HwNciTableWrapper table td {
+  border-bottom-color: #808080;
+}
+
+.HwCamShadedTable td,
+.HwCamDrugInteractionsLegend,
+.HwNciTableWrapper table th,
+.HwNciTableWrapper table td {
+  border-left-color: #808080;
+}
+
+.HwCamDrugInteractionsLegend,
+.HwCamInteractionGroup ul>li,
+.HwNciTableWrapper table th,
+.HwNciTableWrapper table td {
+  border-top-color: #808080;
+}
+
+.HwCamDrugInteractionsLegend,
+.HwCamIconAdverseText,
+.HwCamIconBeneficialText,
+.HwNciTableWrapper table th,
+.HwNciTableWrapper table td {
+  border-right-color: #808080;
+}
+
+ul.HwCompareOptionContainer li {
+  background-color: #cce0ea;
+}
+
+.HwContent .HwGoToWeb {
+  border-top-color: #222222;
+}
+
+.HwContent .HwGoToWeb {
+  border-right-color: #222222;
+}
+
+.HwContent .HwGoToWeb {
+  border-bottom-color: #222222;
+}
+
+.HwContent .HwGoToWeb {
+  border-left-color: #222222;
+}
+
+.HwContent .HwGoToWeb {
+  background-color: #eeeeee;
+}
+
+
+@media screen and (max-width: 767px) {
+  #HwGalleryControl {
+    background-color: #5192b3;
+  }
+
+  .HwMediaDialogElement #HwDialogElementBodyWrapper {
+    background-color: #000000;
+  }
+
+  #HwDialogElement.HwMediaDialogElement,
+  #HwMediaDialogContentMobileTextWrapper {
+    background-color: #D8D5D4;
+  }
+
+  #HwMediaDialogTitleWrapper {
+    color: #FFFFFF;
+  }
+
+  #HwMediaDialogCreditsBar {
+    background-color: #FFFFFF;
+  }
+
+  .contactInfo {
+    color: #26290f;
+  }
+
+  #HwNavigation ul li a {
+    border-top-color: #B4B4B4;
+  }
+
+  #HwNavigation ul li a {
+    border-right-color: #B4B4B4;
+  }
+
+  #HwNavigation ul li a {
+    border-bottom-color: #B4B4B4;
+  }
+
+  #HwNavigation ul li a {
+    border-left-color: #B4B4B4;
+  }
+
+  #HwNavigation ul li.HwNavigationItemCurrent a {
+    color: #000000;
+  }
+
+  #HwNavigation ul li a:active,
+  #HwNavigation ul li a:hover {
+    background-color: #FF9800;
+  }
+
+  #HwNavigation ul li a:active,
+  #HwNavigation ul li a:hover {
+    color: #ffffff;
+  }
+
+  #HwNavigation ul li.HwNavigationItemCurrent a:active,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover {
+    background-color: inherit;
+  }
+
+  #HwNavigation ul li.HwNavigationItemCurrent a:active,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover {
+    color: inherit;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+
+}
+
+.HwElement select,
+.HwElement textarea,
+.HwElement input[type="search"],
+.HwElement input[type="text"] {
+  border-top-color: #cccccc;
+}
+
+.HwElement select,
+.HwElement textarea,
+.HwElement input[type="search"],
+.HwElement input[type="text"] {
+  border-right-color: #cccccc;
+}
+
+.HwElement select,
+.HwElement textarea,
+.HwElement input[type="search"],
+.HwElement input[type="text"] {
+  border-bottom-color: #cccccc;
+}
+
+.HwElement select,
+.HwElement textarea,
+.HwElement input[type="search"],
+.HwElement input[type="text"] {
+  border-left-color: #cccccc;
+}
+
+.HwTypeMultum .HwSlideShowArea {
+  border-top-color: #a8a9ac;
+}
+
+.HwTypeMultum .HwSlideShowArea {
+  border-right-color: #a8a9ac;
+}
+
+.HwTypeMultum .HwSlideShowArea {
+  border-bottom-color: #a8a9ac;
+}
+
+.HwTypeMultum .HwSlideShowArea {
+  border-left-color: #a8a9ac;
+}
+
+.HwTypeMultum .HwSlide p {
+  color: #046799;
+}
+
+.HwLandingQuickPageLink:before,
+.HwLandingQuickBrowseLink:before {
+  color: #015c9a;
+}
+
+.HwTypeConditionCenter .HwContent ul li,
+.HwCopyright .HwCopyrightLink {
+  color: #000000;
+}
+
+.HwVideoSearchBarInputWrapper,
+.HwElement {
+  background-color: #ffffff;
+}
+
+.HwElement select,
+.HwElement input[type="file"] {
+  color: #555555;
+}
+
+#HwSearchWrapper {
+  background-color: #f1edea;
+}
+
+#HwMediaDialogTitleWrapper,
+#HwGalleryControl,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapper:hover,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapperSelected,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapperSelected:focus {
+  background-color: #2baaeb;
+}
+
+.HwCommonHeadingTextWrapper {
+  color: #231f20;
+}
+
+.HwCopyright {
+  color: #808080;
+}
+
+.HwSearchResultsHeaderBox {
+  background-color: #efe9e5;
+}
+
+@media screen and (max-width: 767px) {
+  .HwContentTopNavigation,
+  .HwContentTopNavigation a.HwContentTopNavigationActive {
+    background-color: #ffffff;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-top-color: #3E4041;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-right-color: #3E4041;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider,
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-bottom-color: #3E4041;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-left-color: #3E4041;
+  }
+
+  .HwSmallTopNavigationActive .HwSmallTopNavigationText,
+  .HwSmallTopNavigationText,
+  .HwContentTopNavigation a.HwContentTopNavigationTab {
+    color: #ffffff;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab {
+    background-color: #3E4041;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationActive {
+    color: #3E4041;
+  }
+}
+
+@media screen and (max-device-width: 1039px) {
+
+}
+
+@media screen and (max-width: 1039px) {
+  #HwNavStackHeader {
+    border-bottom-color: #333333;
+  }
+
+  #HwListSubIndex li a:hover,
+  #HwListSubIndex li a:visited,
+  #HwListSubIndex li a {
+    border-top-color: #2baaeb;
+  }
+
+  #HwListSubIndex li a:hover,
+  #HwListSubIndex li a:visited,
+  #HwListSubIndex li a {
+    border-right-color: #2baaeb;
+  }
+
+  #HwListSubIndex li a:hover,
+  #HwListSubIndex li a:visited,
+  #HwListSubIndex li a {
+    border-bottom-color: #2baaeb;
+  }
+
+  #HwListSubIndex li a:hover,
+  #HwListSubIndex li a:visited,
+  #HwListSubIndex li a {
+    border-left-color: #2baaeb;
+  }
+
+  .HwLandingBrowseLinksWrapper {
+    background-color: inherit;
+  }
+
+  .HwLandingBrowseHeader,
+  .HwLandingLinksHeader {
+    outline-color: #5192b3;
+  }
+
+  .HwLandingQuickPageLink,
+  .HwLandingQuickBrowseLink {
+    background-color: #badef4;
+  }
+
+  .HwLandingQuickPageLink,
+  .HwLandingQuickBrowseLink {
+    border-top-color: #ffffff;
+  }
+
+  .HwLandingQuickPageLink,
+  .HwLandingQuickBrowseLink {
+    border-right-color: #ffffff;
+  }
+
+  .HwLandingQuickPageLink,
+  .HwLandingQuickBrowseLink {
+    border-bottom-color: #ffffff;
+  }
+
+  .HwLandingQuickPageLink,
+  .HwLandingQuickBrowseLink,
+  a.HwVideoBar {
+    border-left-color: #ffffff;
+  }
+
+  .HwLandingQuickPageLink a,
+  .HwLandingQuickBrowseLink a,
+  .HwTopicsList li a,
+  #HwBackButton .HwBackText,
+  #HwListIndex li.HwIndexItemCurrent span.HwIndexItemCurrentToken,
+  #HwListIndex li a:visited,
+  #HwListIndex li a:hover,
+  #HwListIndex li a,
+  #HwListSubIndex li a:hover,
+  #HwListSubIndex li a:visited,
+  #HwListSubIndex li a,
+  .HwListSectionHeader h3 a {
+    color: #000000;
+  }
+
+  #HwListSubIndex li a {
+    background-color: #ffffff;
+  }
+
+  #HwListIndex li.HwIndexItemCurrent,
+  #HwListIndex li,
+  #HwListSubIndex li a.HwLinkListLetterPairCurrent {
+    background-color: #2baaeb;
+  }
+
+  #HwListIndex li,
+  .HwListSectionHeader {
+    background-color: #BADEF4;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .HwiToolWrapper input[type="submit"].HwSearchButton,
+  .HwSearchContent input.HwSearchButton,
+  .HwLandingContentHeader,
+  .HwLandingBrowseHeader,
+  .HwLandingLinksHeader,
+  .HwLandingMenuItemBottom,
+  .HwLandingQuickPageLink a,
+  a.HwLandingMenuItemText,
+  .HwiToolWrapper input[type="submit"].HwSearchButton,
+  .HwSearchContent input.HwSearchButton,
+  .HwNavigationSection h2.HwSectionTitle,
+  #HwNavigation ul li.HwNavigationItemCurrent a,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover,
+  #HwNavigation ul li.HwNavigationItemCurrent a:active,
+  .HwCategory .HwContentTitle,
+  .HwList .HwContentTitle,
+  #HwSearchResultsHeader {
+    background-color: #2baaeb;
+  }
+
+  .HwSearchContainter,
+  #HwNavigation ul li a {
+    border-top-color: #cccccc;
+  }
+
+  .HwSearchContainter,
+  #HwNavigation ul li a {
+    border-right-color: #cccccc;
+  }
+
+  .HwSearchContainter,
+  #HwNavigation ul li a {
+    border-bottom-color: #cccccc;
+  }
+
+  .HwSearchContainter,
+  #HwNavigation ul li a {
+    border-left-color: #cccccc;
+  }
+
+  #HwFooter,
+  .HwCategoryListContent ol.HwCategoryColumn2 li:first-child a,
+  #HwSearchContent li a,
+  .HwCategoryListContent ol.HwCategoryColumn2 li:first-child a,
+  #HwFooter {
+    border-top-color: #000000;
+  }
+
+  #HwMiddleHomeLink,
+  #HwMiddleOpenSearchLink,
+  #HwCustomMiddleHeaderRight,
+  #HwCustomMiddleHeaderCenter,
+  #HwListSubIndex li a.HwLinkListLetterPairCurrent,
+  #HwCustomMiddleHeader,
+  #HwMiddleHomeLink,
+  #HwMiddleOpenSearchLink {
+    background-color: #ffffff;
+  }
+
+  #HwNavigationDropDown,
+  #HwNavigation ul li.HwNavigationItemCurrent a,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover,
+  #HwNavigation ul li.HwNavigationItemCurrent a:active {
+    border-top-color: #2baaeb;
+  }
+
+  .HwCategory .HwContentTitle,
+  .HwList .HwContentTitle,
+  #HwNavStackHeader {
+    background-color: #bbdff5;
+  }
+
+  a.HwCategoryTitlePlaceholderLink,
+  .HwLandingMenuItemBottom,
+  .HwLandingQuickPageLink a,
+  a.HwLandingMenuItemText,
+  .HwLandingMenuItemBottom:active,
+  .HwLandingLinksContent a:active,
+  .HwTopicsList a:active,
+  a.HwLandingMenuItemText:active,
+  .HwVideoCategoryContainer .HwCategoryListContent a:hover,
+  .HwVideoCategoryContainer .HwCategoryListContent a:active {
+    color: #ffffff;
+  }
+
+  a.HwCategoryTitlePlaceholderLink,
+  .HwLandingMenuItemBottom,
+  .HwLandingQuickPageLink a,
+  a.HwLandingMenuItemText,
+  .HwLandingQuickPageLink a,
+  .HwLandingQuickBrowseLink a {
+    border-top-color: #ffffff;
+  }
+
+  a.HwCategoryTitlePlaceholderLink,
+  .HwLandingMenuItemBottom,
+  .HwLandingQuickPageLink a,
+  a.HwLandingMenuItemText,
+  .HwLandingQuickPageLink a,
+  .HwLandingQuickBrowseLink a {
+    border-right-color: #ffffff;
+  }
+
+  a.HwCategoryTitlePlaceholderLink,
+  .HwLandingMenuItemBottom,
+  .HwLandingQuickPageLink a,
+  a.HwLandingMenuItemText,
+  .HwLandingQuickPageLink a,
+  .HwLandingQuickBrowseLink a {
+    border-bottom-color: #ffffff;
+  }
+
+  a.HwCategoryTitlePlaceholderLink,
+  li.HwContentNavigationNext,
+  .HwLandingMenuItemBottom,
+  .HwLandingQuickPageLink a,
+  a.HwLandingMenuItemText,
+  .HwLandingQuickPageLink a,
+  .HwLandingQuickBrowseLink a {
+    border-left-color: #ffffff;
+  }
+
+  #HwListIndex .HwListIndexInner > ol > li,
+  #HwListIndex .HwListIndexInner > ol > li.HwIndexItemCurrent,
+  #HwListSubIndex ol li a:hover,
+  #HwListSubIndex ol li a:active,
+  #HwListSubIndex ol li a:visited,
+  #HwListSubIndex ol li a,
+  div.HwListSection ol li a,
+  #HwListIndex ol.HwMobileSubLetterList li a,
+  .HwListWrapper ol li,
+  .HwListDocumentTitle,
+  .HwCategoryListContent ol li a,
+  #HwListIndex .HwListIndexInner > ol > li,
+  #HwListIndex .HwListIndexInner > ol > li.HwIndexItemCurrent,
+  div.HwListSection ol li a,
+  #HwListIndex ol.HwMobileSubLetterList li a,
+  .HwListDocumentTitle,
+  .HwCategoryListContent ol li a {
+    border-bottom-color: #000000;
+  }
+
+  #HwNavigation ul li a {
+    background-color: #eeeeee;
+  }
+
+  .HwLandingContentHeader {
+    border-bottom-color: #badef4;
+  }
+
+  .HwLandingContentHeader h1,
+  .HwVideoCategoryContainer .HwCategoryListContent a,
+  .HwVideoCategoryContainer .HwCategoryListContent a:visited,
+  #HwListIndex .HwListIndexInner > ol > li,
+  #HwListIndex .HwListIndexInner > ol > li.HwIndexItemCurrent,
+  div.HwListSectionHeader h3,
+  div.HwListSectionHeader h3 a,
+  #HwListIndex .HwListIndexInner > ol > li > a:visited,
+  #HwListIndex ol.HwMobileSubLetterList li a,
+  #HwListIndex ol.HwMobileSubLetterList li a:hover,
+  #HwListIndex ol.HwMobileSubLetterList li a:active,
+  #HwListIndex ol.HwMobileSubLetterList li a:visited,
+  #HwSearchContent li a,
+  #HwSearchContent li a:visited,
+  #HwNavStackHeader {
+    color: #000000;
+  }
+
+  .HwLandingBrowseHeader,
+  .HwLandingLinksHeader {
+    outline-color: #2baaeb;
+  }
+
+  #HwFooter {
+    border-top-color: #99ccff;
+  }
+
+  .HwLandingMenuItemBottom:active,
+  .HwLandingLinksContent a:active,
+  .HwTopicsList a:active,
+  a.HwLandingMenuItemText:active,
+  div.HwListSection ol li a:hover,
+  div.HwListSection ol li a:active,
+  #HwNavigation ul li a:hover,
+  #HwNavigation ul li a:active,
+  #HwListIndex .HwListIndexInner > ol > li > a:active,
+  #HwListIndex .HwListIndexInner > ol > li > a:hover,
+  #HwListIndex ol.HwMobileSubLetterList li a:hover,
+  #HwListIndex ol.HwMobileSubLetterList li a:active,
+  .HwListWrapper ol li:active,
+  .HwListWrapper ol li:hover,
+  .HwCategoryListContent ol li a:hover,
+  .HwCategoryListContent ol li a:active,
+  #HwSearchContent li a:hover,
+  #HwSearchContent li a:active {
+    background-color: #FF9800;
+  }
+
+  .HwSearchContainter,
+  #HwNavigation ul li a {
+    border-top-color: #cccccc;
+  }
+
+  .HwSearchContainter,
+  #HwNavigation ul li a {
+    border-right-color: #cccccc;
+  }
+
+  .HwSearchContainter,
+  #HwNavigation ul li a {
+    border-bottom-color: #cccccc;
+  }
+
+  .HwSearchContainter,
+  #HwNavigation ul li a {
+    border-left-color: #cccccc;
+  }
+
+  #HwSearchWrapper {
+    background-color: #ffffff;
+  }
+
+  #HwNavigation ul li.HwNavigationItemCurrent a,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover,
+  #HwNavigation ul li.HwNavigationItemCurrent a:active {
+    border-right-color: #2baaeb;
+  }
+
+  #HwNavigation ul li.HwNavigationItemCurrent a,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover,
+  #HwNavigation ul li.HwNavigationItemCurrent a:active {
+    border-bottom-color: #2baaeb;
+  }
+
+  #HwNavigation ul li.HwNavigationItemCurrent a,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover,
+  #HwNavigation ul li.HwNavigationItemCurrent a:active {
+    border-left-color: #2baaeb;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTitle {
+    background-color: #144870;
+  }
+
+  .HwSmallTopNavigation .HwSmallTopListNavigation,
+  .HwSmallTopNavigation .HwSmallTopCategoryNavigation {
+    background-color: #000000;
+  }
+
+  .HwCategory .HwContentTitle h1,
+  .HwList .HwContentTitle h1,
+  div.HwListSection ol li a:hover .HwListLinkText,
+  div.HwListSection ol li a:active .HwListLinkText,
+  #HwListIndex ol.HwMobileSubLetterList li a:hover .HwListLinkText,
+  #HwListIndex ol.HwMobileSubLetterList li a:active .HwListLinkText,
+  .HwListWrapper ol li a:active,
+  .HwListWrapper ol li a:hover,
+  .HwCategoryListContent ol li a:hover .HwListLinkText,
+  .HwCategoryListContent ol li a:active .HwListLinkText,
+  .HwContentNavigationNext a,
+  .HwContentNavigationPrev a,
+  .HwNavigationSection h2.HwSectionTitle,
+  .HwContentTitle h1,
+  #HwSearchContent li a:hover,
+  #HwSearchContent li a:active,
+  #HwNavigation ul li.HwNavigationItemCurrent a,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover,
+  #HwNavigation ul li.HwNavigationItemCurrent a:active,
+  #HwListIndex .HwListIndexInner > ol > li > a:active .HwListLinkText,
+  #HwListIndex .HwListIndexInner > ol > li > a:hover .HwListLinkText,
+  .HwSmallTopNavigationActive .HwSmallTopNavigationText,
+  .HwSmallTopNavigationText,
+  .HwContentTopNavigation a.HwContentTopNavigationTab {
+    color: #ffffff;
+  }
+
+  .HwCategoryListContent .HwListLinkText,
+  .HwListIndexInner .HwListLinkText,
+  div.HwListSection .HwListLinkText,
+  #HwNavigation ul li a {
+    color: #444444;
+  }
+
+  li.HwContentNavigationNone,
+  li.HwContentNavigationNext,
+  li.HwContentNavigationPrev {
+    background-color: #121619;
+  }
+
+  li.HwContentNavigationNext:hover,
+  li.HwContentNavigationNext:active,
+  li.HwContentNavigationPrev:hover,
+  li.HwContentNavigationPrev:active {
+    background-color: #cccccc;
+  }
+
+  div.HwSearchResultsExtra ol li.HwSearchBestBet,
+  #HwSearchResultsSpecial .HwSearchResultsExtra li a {
+    background-color: #d8d1ca;
+  }
+
+  #HwSearchResultsMain li a,
+  #HwSearchResultsMain li a:visited {
+    color: #006699;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-top-color: #2e799e;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-right-color: #2e799e;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-bottom-color: #2e799e;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-left-color: #2e799e;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .HwContentTopNavigation a.HwContentTopNavigationActive {
+    background-color: #ffffff;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationActive {
+    color: #3E4041;
+  }
+}
+
+@media screen and (max-width: 1039px) {
+  #HwListSubIndex li a.HwListSubIndexActive {
+    background-color: #2baaeb;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #HwListIndex .HwListIndexInner ol li a,
+  #HwListSubIndex li a.HwListSubIndexActive {
+    background-color: #ffffff;
+  }
+
+  .HwList h2#HwListTitle {
+    color: #ffffff;
+  }
+
+  .HwList h2#HwListTitle {
+    background-color: #2baaeb;
+  }
+
+  #HwListSubIndex ol li a:hover,
+  #HwListSubIndex ol li a:active {
+    background-color: #FF9800;
+  }
+
+  #HwListSubIndex ol li a:hover,
+  #HwListSubIndex ol li a:active {
+    color: #ffffff;
+  }
+}
+
+#HwRatingContainerDesktop .HwCategoryWrapper,
+.HwRatingSeparator {
+  border-bottom-color: #706259;
+}
+
+.HwRatingButton,
+.HwRatingSeparator {
+  background-color: #706259;
+}
+
+.HwRatingButton {
+  color: #ffffff;
+}
+
+.HwRatingSeparator {
+  border-top-color: #706259;
+}
+
+.HwRatingSeparator {
+  border-right-color: #706259;
+}
+
+.HwRatingSeparator {
+  border-left-color: #706259;
+}
+
+.HwRatingOptionText,
+.HwRatingText,
+#HwFeedbackText {
+  color: #2e2e2e;
+}
+
+.HwRatingTabText,
+.HwRatingCheckBoxText {
+  color: #4d4d4d;
+}
+
+.HwBar {
+  border-top-color: #e3dcd4;
+}
+
+.HwBar {
+  border-right-color: #e3dcd4;
+}
+
+.HwBar {
+  border-bottom-color: #e3dcd4;
+}
+
+.HwBar {
+  border-left-color: #e3dcd4;
+}
+
+.HwBar {
+  background-color: #FFFFFF;
+}
+
+.HwCategoryWrapper {
+  background-color: #e9e3dc;
+}
+
+.HwSelectedText {
+  color: #256E84;
+}
+
+@media screen and (max-width: 930px) {
+
+}
+
+@media screen and (max-width: 768px) {
+  .HwRatingSeparator {
+    border-top-color: #4d4d4d;
+  }
+
+  .HwRatingOptionTabWrapperMobile,
+  #HwRatingContainerMobile .HwCategoryWrapper,
+  #HwRatingContainerMobile .HwCategoryWrapper {
+    background-color: #FFFFFF;
+  }
+
+  .HwRatingOptionTabWrapperMobile .HwRatingTab {
+    background-color: #E9E3DC;
+  }
+
+  .HwRatingOptionTabWrapperMobile .HwRatingTab {
+    border-bottom-color: #FFFFFF;
+  }
+
+  #HwRatingContainerMobile .HwRatingTabSelected {
+    background-color: #5292B1;
+  }
+
+  #HwRatingContainerMobile .HwRatingTabText.HwSelectedText {
+    color: #FFFFFF;
+  }
+
+  #HwRatingContainerMobile .HwRatingCheckBoxText.HwSelectedText {
+    color: #5292B1;
+  }
+}

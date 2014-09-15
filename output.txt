@@ -1,0 +1,86 @@
+{ type: 1000,
+  property: 'border-top-color',
+  values: 
+   [ { value: 'red',
+       type: 1,
+       name: null,
+       parentRule: null,
+       parentStyleSheet: null } ],
+  valueText: 'red',
+  priority: false,
+  parsedCssText: 'border-top-color: red;',
+  parentStyleSheet: null,
+  parentRule: null }
+#ff0000
+{ type: 1000,
+  property: 'border-right-color',
+  values: 
+   [ { value: 'red',
+       type: 1,
+       name: null,
+       parentRule: null,
+       parentStyleSheet: null } ],
+  valueText: 'red',
+  priority: false,
+  parsedCssText: 'border-right-color: red;',
+  parentStyleSheet: null,
+  parentRule: null }
+#ff0000
+{ type: 1000,
+  property: 'border-bottom-color',
+  values: 
+   [ { value: 'red',
+       type: 1,
+       name: null,
+       parentRule: null,
+       parentStyleSheet: null } ],
+  valueText: 'red',
+  priority: false,
+  parsedCssText: 'border-bottom-color: red;',
+  parentStyleSheet: null,
+  parentRule: null }
+#ff0000
+{ type: 1000,
+  property: 'border-left-color',
+  values: 
+   [ { value: 'red',
+       type: 1,
+       name: null,
+       parentRule: null,
+       parentStyleSheet: null } ],
+  valueText: 'red',
+  priority: false,
+  parsedCssText: 'border-left-color: red;',
+  parentStyleSheet: null,
+  parentRule: null }
+#ff0000
+{ type: 1000,
+  property: 'background-color',
+  values: 
+   [ { value: 'rgb(12, 0, 255)',
+       type: 1,
+       name: null,
+       parentRule: null,
+       parentStyleSheet: null } ],
+  valueText: 'rgb(12, 0, 255)',
+  priority: false,
+  parsedCssText: 'background-color: rgb(12, 0, 255);',
+  parentStyleSheet: null,
+  parentRule: null }
+background-color: #0c00ff
+{ type: 1000,
+  property: 'background-color',
+  values: 
+   [ { value: 'hsl(150, 20%, 60%)',
+       type: 1,
+       name: null,
+       parentRule: null,
+       parentStyleSheet: null } ],
+  valueText: 'hsl(150, 20%, 60%)',
+  priority: false,
+  parsedCssText: 'background-color: hsl(150, 20%, 60%);',
+  parentStyleSheet: null,
+  parentRule: null }
+150 20 60
+133 173 153
+background-color: #85ad99

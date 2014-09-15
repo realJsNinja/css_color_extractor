@@ -1,0 +1,4122 @@
+/*
+Colors in this style sheet
+
+#000000
+#030303
+#070707
+#0e0e0e
+#0f0f0f
+#111111
+#151515
+#1a1a1a
+#1b1b1b
+#1c1c1c
+#1d1d1d
+#202020
+#222222
+#252525
+#262626
+#292929
+#2e2e2e
+#313131
+#323232
+#333333
+#363636
+#393939
+#3a3a3a
+#3b3b3b
+#3c3c3c
+#3e3e3e
+#3f3f3f
+#404040
+#444444
+#454545
+#474747
+#494949
+#4a4a4a
+#4b4b4b
+#4c4c4c
+#4d4d4d
+#4e4e4e
+#4f4f4f
+#505050
+#515151
+#535353
+#545454
+#555555
+#565656
+#585858
+#595959
+#5a5a5a
+#5c5c5c
+#5d5d5d
+#5e5e5e
+#5f5f5f
+#616161
+#626262
+#656565
+#666666
+#686868
+#6b6b6b
+#6d6d6d
+#6f6f6f
+#707070
+#717171
+#747474
+#777777
+#787878
+#797979
+#7a7a7a
+#7b7b7b
+#7e7e7e
+#7f7f7f
+#808080
+#818181
+#828282
+#888888
+#898989
+#8b8b8b
+#8f8f8f
+#919191
+#939393
+#959595
+#999999
+#9b9b9b
+#9c9c9c
+#a0a0a0
+#a1a1a1
+#a2a2a2
+#a5a5a5
+#a6a6a6
+#a9a9a9
+#b1b1b1
+#b3b3b3
+#b4b4b4
+#bbbbbb
+#bdbdbd
+#bebebe
+#bfbfbf
+#c0c0c0
+#c2c2c2
+#c3c3c3
+#c5c5c5
+#c6c6c6
+#c7c7c7
+#c9c9c9
+#cccccc
+#d0d0d0
+#d1d1d1
+#d2d2d2
+#d3d3d3
+#d4d4d4
+#d5d5d5
+#d6d6d6
+#d8d8d8
+#d9d9d9
+#dbdbdb
+#dddddd
+#dfdfdf
+#e0e0e0
+#e1e1e1
+#e2e2e2
+#e3e3e3
+#e4e4e4
+#e5e5e5
+#e6e6e6
+#e8e8e8
+#e9e9e9
+#eaeaea
+#ebebeb
+#ececec
+#ededed
+#eeeeee
+#efefef
+#f0f0f0
+#f1f1f1
+#f2f2f2
+#f4f4f4
+#f5f5f5
+#f6f6f6
+#f7f7f7
+#f9f9f9
+#fafafa
+#fbfbfb
+#fdfdfd
+#ffffff
+inherit
+rgba(0, 0, 0, 0)
+rgba(0, 0, 0, 0.1)
+rgba(0, 0, 0, 0.15)
+rgba(0, 0, 0, 0.2)
+rgba(0, 0, 0, 0.25)
+rgba(0, 0, 0, 0.3)
+rgba(0, 0, 0, 0.75)
+rgba(102,102,102,.4)
+rgba(255, 255, 255, 0.25)
+rgba(255, 255, 255, 0.75)
+rgba(82, 168, 236, 0.8)
+
+*/
+
+a:focus,
+input:focus,
+*[tabindex]:focus {
+  outline-color: #cccccc;
+}
+
+.HwElement,
+.HwCommonDialog #HwDialogElementBodyWrapper,
+#HwMediaDialogContentMediaWrapper,
+.HwMediaGalleryImageWrapper,
+.HwMediaScrollImageWrapper,
+.HwCommonDialog #HwDialogElementBodyWrapper,
+#HwMediaGalleryWindow,
+.HwVideoLibraryContainer div#HwSearchWrapper,
+.HwVideoSearchBarInputWrapper,
+a.HwMainSkipNavigation:focus .HwAccessibilityText,
+a.HwMainSkipNavigation:active .HwAccessibilityText,
+.HwLandingBrowseContent,
+.HwLandingQuickLinks,
+.HwConditionCenterContentInner,
+.HwCamInteractionGroup ul>li,
+.HwNciTableWrapper table,
+.HwNciTableWrapper table th,
+.HwNciTableWrapper table td {
+  background-color: #ffffff;
+}
+
+.HwElement,
+.HwElement h1,
+.HwElement h3,
+.HwElement h4,
+.HwNavigationSection h2.HwSectionTitle,
+#HwMediaDialogCreditsBar #HwMediaDialogCreditsBarButton,
+.HwNavigationItemCurrent a,
+.HwContent h2,
+#HwListTitle,
+.HwOrgTitle {
+  color: #000000;
+}
+
+.HwNavigationSection h2.HwSectionTitle,
+.HwContent h2,
+#HwSearchResultsSpecial,
+.HwSearchNoResults,
+.HwNciTableWrapper table {
+  border-bottom-color: #000000;
+}
+
+.HwElement a,
+.HwCamInteractionListItem>span {
+  color: #474747;
+}
+
+#HwDialogElementCloseButton:focus,
+a.HwMediaScrollNavigation:focus {
+  outline-color: #000000;
+}
+
+#HwModalDialogOverlay {
+  background-color: #1a1a1a;
+}
+
+#HwDialogElement,
+#HwDialogElementButtonWrapper,
+#HwMediaGalleryBox,
+#HwDialogElement {
+  background-color: #e9e9e9;
+}
+
+#HwDialogElementBodyWrapper,
+.HwMediaScrollWindow,
+#HwMediaDialogContentTextWrapper {
+  background-color: #d5d5d5;
+}
+
+#HwDialogElementBodyWrapper,
+#HwMediaGalleryWindowWrapper,
+.HwMediaGalleryImageWrapper,
+.HwMediaScrollWindow,
+.HwMediaScrollImageWrapper,
+.HwCurrentMediaScrollImageWrapper,
+.HwMediaDialogControlNumberWrapper,
+#HwDialogElementBodyWrapper,
+#HwMediaDialogCredits,
+#HwMediaDialogControlWrapper,
+#HwMediaDialogControlForwardWrapper,
+#HwMediaDialogControlBackWrapper,
+#HwMediaDialogContentTextWrapper,
+#HwMediaDialogContentMobileTextWrapper {
+  border-color: #a9a9a9;
+}
+
+.HwMediaScrollImageWrapper:hover .HwMediaScrollImageIcon,
+.HwMediaScrollImageWrapper:focus .HwMediaScrollImageIcon,
+.HwMediaScrollImageWrapper:active .HwMediaScrollImageIcon,
+.HwMediaScrollImageWrapper:hover .HwMediaScrollImageIconMediaType_video,
+.HwMediaScrollImageWrapper:focus .HwMediaScrollImageIconMediaType_video,
+.HwMediaScrollImageWrapper:active .HwMediaScrollImageIconMediaType_video,
+.HwMediaScrollImageWrapper:hover .HwMediaScrollImageIconMediaType_slideshow,
+.HwMediaScrollImageWrapper:focus .HwMediaScrollImageIconMediaType_slideshow,
+.HwMediaScrollImageWrapper:active .HwMediaScrollImageIconMediaType_slideshow,
+#HwMediaDialogContentMediaWrapper.HwMediaDialogContentMediaVideoWrapper,
+#HwMediaDialogContentMediaWrapper .HwMediaDialogContentMediaVideo,
+.HwMediaScrollImageWrapper:hover,
+.HwMediaScrollImageWrapper:focus,
+.HwMediaScrollImageWrapper:active,
+#HwMediaDialogCredits,
+.HwVideoDialogElement #HwMediaDialogContentWrapper,
+#HwMediaDialogContentVideoWrapper {
+  background-color: #000000;
+}
+
+.HwCurrentMediaScrollImageWrapper .HwMediaScrollImageIcon,
+.HwCurrentMediaScrollImageWrapper:hover .HwMediaScrollImageIcon,
+.HwCurrentMediaScrollImageWrapper:focus .HwMediaScrollImageIcon,
+.HwCurrentMediaScrollImageWrapper:active .HwMediaScrollImageIcon,
+.HwCurrentMediaScrollImageWrapper .HwMediaScrollImageIconMediaType_video,
+.HwCurrentMediaScrollImageWrapper:hover .HwMediaScrollImageIconMediaType_video,
+.HwCurrentMediaScrollImageWrapper:focus .HwMediaScrollImageIconMediaType_video,
+.HwCurrentMediaScrollImageWrapper:active .HwMediaScrollImageIconMediaType_video,
+.HwCurrentMediaScrollImageWrapper .HwMediaScrollImageIconMediaType_slideshow,
+.HwCurrentMediaScrollImageWrapper:hover .HwMediaScrollImageIconMediaType_slideshow,
+.HwCurrentMediaScrollImageWrapper:focus .HwMediaScrollImageIconMediaType_slideshow,
+.HwCurrentMediaScrollImageWrapper:active .HwMediaScrollImageIconMediaType_slideshow,
+.HwCurrentMediaGalleryImageWrapperHighlight,
+.HwCurrentMediaScrollImageWrapper:hover,
+.HwCurrentMediaScrollImageWrapper:active,
+.HwCurrentMediaScrollImageWrapper:focus,
+.HwCurrentMediaScrollImageWrapper {
+  background-color: #4f4f4f;
+}
+
+#HwMediaDialogTitle,
+.HwMediaDialogControlNumber,
+#HwMediaDialogCredits,
+a.HwVideoBarSelected:hover .HwVideoBarText,
+.HwVideoLibraryFilterBarBody a.HwVideoBarSelected,
+a.HwVideoBarSelected .HwVideoBarText,
+#HwVideoSearchBarInputGoButton,
+#HwVideoSearchBarInputGoButton:hover,
+#HwListIndex .HwIndexItemCurrent,
+#HwListIndex .HwNumberItemCurrent,
+a.HwLandingMenuItemText,
+.HwLandingBrowseHeader,
+.HwLandingLinksHeader,
+.HwiToolWrapper input[type="submit"].HwSearchButton,
+input.HwSearchButton,
+input.HwHomeButton,
+.HwTypeITool .HwContentHeader,
+.HwTypeConditionCenter .HwContentHeader,
+.HwTypeDecisionPoint .HwContentHeader,
+.HwTypeSymptom .HwContentHeader,
+.HwMedicalTestSynonyms,
+.HwCamShadedTable th,
+.HwCamInteractionGroup>h3,
+div.HwPersonalStoriesWindowLink a {
+  color: #ffffff;
+}
+
+#HwMediaGalleryHeaderTitle,
+#HwMediaGalleryHeaderSubtitle,
+#HwMediaDialogHeadingText,
+#HwMediaDialogContentText,
+#HwMediaDialogContentMobileText {
+  color: #202020;
+}
+
+#HwMediaGalleryWindowTitle {
+  color: #4e4e4e;
+}
+
+#HwMediaDialogControlWrapper {
+  background-color: #595959;
+}
+
+.HwMediaDialogControlNumberWrapper:focus {
+  background-color: #a9a9a9;
+}
+
+#HwMediaDialogTitleWrapper,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapper:hover,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapperSelected,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapperSelected:focus,
+.HwLandingBrowseHeader,
+.HwLandingLinksHeader,
+.HwTypeITool .HwContentHeader,
+.HwTypeConditionCenter .HwContentHeader,
+.HwTypeDecisionPoint .HwContentHeader,
+.HwTypeSymptom .HwContentHeader {
+  background-color: #828282;
+}
+
+.HwMediaGalleryImageCover:focus,
+a.HwVideoBar:focus {
+  outline-color: #ffffff;
+}
+
+.HwVideoCategoryContainer .HwCategoryListContent a:hover,
+.HwVideoLibraryContainer .HwSearchWrapper a:hover,
+.HwVideosFrameBlockTitle:hover,
+h3.HwVideoBreadcrumbText a:hover {
+  color: #292929;
+}
+
+div.HwCategoryListOuterBorder {
+  background-color: inherit;
+}
+
+.HwVideoLibraryContentArea,
+.HwVideoCategoryContainer,
+.HwDisclaimer,
+.HwAfterVisit .HwLegal,
+.HwPI-Post-Op .HwLegal,
+.HwPI-Pre-Op .HwLegal,
+.HwPI-Pre-Test .HwLegal {
+  border-top-color: #cccccc;
+}
+
+.HwVideoLibraryContentArea,
+.HwVideoCategoryContainer {
+  border-right-color: #cccccc;
+  border-bottom-color: #cccccc;
+  border-left-color: #cccccc;
+}
+
+.HwVideoLibraryContainer .HwSearchWrapper,
+.HwVideosFrameBlockTitle,
+.HwVideoCategoryContainer .HwCategoryListContent a,
+h3.HwVideoBreadcrumbText a {
+  color: #808080;
+}
+
+.HwHighlightedVideosTitleText,
+a.HwVideoBar:hover .HwVideoBarText,
+.HwVideoSearchBarLabel {
+  color: #888888;
+}
+
+.HwHighlightedVideosSubText,
+.HwVideoSearchBarInputVideoLabel {
+  color: #666666;
+}
+
+.HwHighlightedVideosSubText {
+  border-bottom-color: #666666;
+}
+
+.HwHighlightedVideosSubTitle {
+  color: #5c5c5c;
+}
+
+.HwVideosFrameBlockDuration,
+.HwElement h3.HwVideoBreadcrumbText {
+  color: #333333;
+}
+
+.HwFilterByText {
+  color: #999999;
+}
+
+a.HwVideoBar {
+  background-color: #454545;
+}
+
+a.HwVideoBar .HwVideoBarText {
+  color: #cccccc;
+}
+
+.HwVideoLibraryFilterBarBody {
+  background-color: #999999;
+}
+
+.HwVideoBarLeft,
+.HwVideoBarRight {
+  background-color: #313131;
+}
+
+.HwVideoBarRight {
+  background-color: #5e5e5e;
+}
+
+.HwVideoLibraryFilterBarBody a.HwVideoBarSelected {
+  background-color: #888888;
+}
+
+.HwVideoBarLeftSelected {
+  background-color: #7e7e7e;
+}
+
+.HwVideoBarRightSelected {
+  background-color: #545454;
+}
+
+img.HwVideosFrameBlockThumbnailImage {
+  border-color: #999999;
+}
+
+.HwVideoSearchBarInputWrapper {
+  border-top-color: #d9d9d9;
+  border-bottom-color: #d9d9d9;
+}
+
+.HwVideoSearchBarInputWrapper,
+.HwVideoSearchBarInputVideoLabel {
+  border-right-color: #d9d9d9;
+}
+
+.HwVideoSearchBarInputWrapper,
+#HwVideoSearchBarInputGoButton {
+  border-left-color: #d9d9d9;
+}
+
+.HwVideoSearchBarInputVideoLabel,
+.HwCategoryList,
+.HwConditionCenterClosed,
+.HwConditionCenterOpen {
+  background-color: #f2f2f2;
+}
+
+.HwVideoSearchBarInputVideoLabel {
+  border-color: #f2f2f2;
+}
+
+#HwVideoSearchBarInputGoButton {
+  background-color: #808080;
+  border-color: #808080;
+}
+
+.HwVideoBarSearchIcon {
+  border-left-color: #313131;
+}
+
+.HwVideoBarSelected .HwVideoBarSearchIcon {
+  border-left-color: #616161;
+}
+
+#HwCategoryListOverlay {
+  background-color: #666666;
+}
+
+.HwNoVideoSearchResultsLabel {
+  color: #1d1d1d;
+}
+
+.HwTypeActionset h2.HwSectionTitle,
+.HwOrgTitle {
+  border-bottom-color: #d1d1d1;
+}
+
+.HwContentMenu {
+  color: #1c1c1c;
+}
+
+.HwContentMenu ul,
+.HwSearchResultsHeaderBox {
+  background-color: #eaeaea;
+}
+
+.HwContentMenu ul li+li,
+.HwNciTableWrapper table {
+  border-left-color: #000000;
+}
+
+#HwFooter {
+  color: #585858;
+}
+
+#HwListIndex li,
+.HwTopicsList li {
+  background-color: #d0d0d0;
+  border-color: #c2c2c2;
+}
+
+#HwListIndex a:visited,
+#HwListSubIndex a:visited,
+.HwListSection a:visited,
+.HwCategoryList li a:visited,
+.HwTopicsList a:visited,
+#HwSearchContent a:visited {
+  color: #323232;
+}
+
+#HwListIndex .HwIndexItemCurrent {
+  background-color: #c9c9c9;
+}
+
+.HwListIndexInner,
+.HwListSectionHeader,
+.HwLandingMenu,
+.HwLandingBrowseLinksWrapper,
+.HwLandingBrowseLinksWrapperOuterBorder,
+.HwCamShadedTable .HwCamShadedTableOddChild,
+.HwCamInteractionGroup ul>.HwCamInteractionListItemEvenChild {
+  background-color: #ededed;
+}
+
+#HwListSubIndex {
+  border-bottom-color: #6d6d6d;
+}
+
+.HwCategoryListOuterBorder {
+  background-color: #d8d8d8;
+}
+
+.HwTypeLanding .HwBrand {
+  color: #6d6d6d;
+}
+
+.HwLandingMenu {
+  background-color: #f0f0f0;
+  border-top-color: #ededed;
+  border-right-color: #ededed;
+  border-left-color: #ededed;
+}
+
+.HwLandingMenu,
+.HwLandingBrowseContent {
+  border-bottom-color: #ededed;
+}
+
+.HwTopicsList ol {
+  border-top-color: #ffffff;
+}
+
+#HwSearchContent a,
+a:visited .HwSearchLinkNext,
+a:visited .HwSearchLinkPrev {
+  color: #4d4d4d;
+}
+
+#HwSearchResultsFooter,
+.HwNciTableWrapper table {
+  border-top-color: #000000;
+}
+
+.HwEmergencyNumber,
+.Red {
+  color: #4c4c4c;
+}
+
+.HwConditionCenterClosedAction,
+.HwConditionCenterOpenAction {
+  background-color: #d9d9d9;
+}
+
+table.HwDrugNames tr,
+table.HwDrugNames td {
+  border-color: #828282;
+}
+
+.HwCamShadedTable th,
+.HwCamInteractionGroup>h3 {
+  background-color: #7f7f7f;
+}
+
+.HwCamShadedTable td,
+table.HwCamShadedTable,
+.HwCamDrugInteractionsLegend,
+.HwCamInteractionGroup,
+.HwNciTableWrapper table th,
+.HwNciTableWrapper table td {
+  border-bottom-color: #7f7f7f;
+}
+
+.HwCamShadedTable td,
+.HwCamDrugInteractionsLegend,
+.HwNciTableWrapper table th,
+.HwNciTableWrapper table td {
+  border-left-color: #7f7f7f;
+}
+
+.HwCamDrugInteractionsLegend,
+.HwCamInteractionGroup ul>li,
+.HwNciTableWrapper table th,
+.HwNciTableWrapper table td {
+  border-top-color: #7f7f7f;
+}
+
+.HwCamDrugInteractionsLegend,
+.HwCamIconAdverseText,
+.HwCamIconBeneficialText,
+.HwNciTableWrapper table th,
+.HwNciTableWrapper table td {
+  border-right-color: #7f7f7f;
+}
+
+.HwNciTableWrapper table {
+  border-right-color: #000000;
+}
+
+ul.HwCompareOptionContainer li {
+  background-color: #dbdbdb;
+}
+
+.HwContent .HwGoToWeb {
+  border-color: #222222;
+  background-color: #eeeeee;
+}
+
+@media screen and (max-width: 767px) {
+  #HwGalleryControl {
+    background-color: #828282;
+  }
+
+  .HwMediaDialogElement #HwDialogElementBodyWrapper {
+    background-color: #000000;
+  }
+
+  #HwDialogElement.HwMediaDialogElement,
+  #HwMediaDialogContentMobileTextWrapper {
+    background-color: #d5d5d5;
+  }
+
+  #HwMediaDialogTitleWrapper,
+  #HwNavigation ul li a:active,
+  #HwNavigation ul li a:focus,
+  #HwNavigation ul li a:hover {
+    color: #ffffff;
+  }
+
+  #HwMediaDialogCreditsBar {
+    background-color: #ffffff;
+  }
+
+  .contactInfo {
+    color: #252525;
+  }
+
+  #HwNavigation ul li a {
+    border-top-color: #bdbdbd;
+    color: #5e5e5e;
+  }
+
+  #HwNavigation ul li:last-child a {
+    border-bottom-color: #bdbdbd;
+  }
+
+  #HwNavigation ul li.HwNavigationItemCurrent a {
+    color: #000000;
+  }
+
+  #HwNavigation ul li a:active,
+  #HwNavigation ul li a:focus,
+  #HwNavigation ul li a:hover {
+    background-color: #a6a6a6;
+  }
+
+  #HwNavigation ul li.HwNavigationItemCurrent a:active,
+  #HwNavigation ul li.HwNavigationItemCurrent a:focus,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover {
+    background-color: inherit;
+    color: inherit;
+  }
+}
+
+.HwElement select,
+.HwElement textarea,
+.HwElement input[type="search"],
+.HwElement input[type="text"] {
+  border-color: #cccccc;
+}
+
+.HwTypeMultum .HwSlideShowArea {
+  border-color: #a9a9a9;
+}
+
+.HwTypeMultum .HwSlide p {
+  color: #4e4e4e;
+}
+
+.HwLandingQuickPageLink:before,
+.HwLandingQuickBrowseLink:before {
+  color: #474747;
+}
+
+.HwTypeConditionCenter .HwContent ul li,
+.HwCopyright .HwCopyrightLink {
+  color: #000000;
+}
+
+.HwVideoSearchBarInputWrapper,
+.HwElement {
+  background-color: #ffffff;
+}
+
+.HwElement select,
+.HwElement input[type="file"] {
+  color: #555555;
+}
+
+#HwSearchWrapper {
+  background-color: #ededed;
+}
+
+#HwMediaDialogTitleWrapper,
+#HwGalleryControl,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapper:hover,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapperSelected,
+#HwMediaDialogControlNumberViewer a.HwMediaDialogControlNumberWrapperSelected:focus {
+  background-color: #8b8b8b;
+}
+
+.HwCommonHeadingTextWrapper {
+  color: #202020;
+}
+
+.HwCopyright {
+  color: #7f7f7f;
+}
+
+.HwSearchResultsHeaderBox {
+  background-color: #eaeaea;
+}
+
+@media screen and (max-width: 767px) {
+  .HwContentTopNavigation,
+  .HwContentTopNavigation a.HwContentTopNavigationActive {
+    background-color: #ffffff;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-top-color: #3f3f3f;
+    border-right-color: #3f3f3f;
+    border-left-color: #3f3f3f;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider,
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-bottom-color: #3f3f3f;
+  }
+
+  .HwSmallTopNavigationActive .HwSmallTopNavigationText,
+  .HwSmallTopNavigationText,
+  .HwContentTopNavigation a.HwContentTopNavigationTab {
+    color: #ffffff;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab {
+    background-color: #3f3f3f;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationActive {
+    color: #3f3f3f;
+  }
+}
+
+@media screen and (max-width: 1039px) {
+  #HwNavStackHeader {
+    border-bottom-color: #333333;
+  }
+
+  #HwListSubIndex li a:hover,
+  #HwListSubIndex li a:visited,
+  #HwListSubIndex li a {
+    border-color: #8b8b8b;
+  }
+
+  .HwLandingBrowseLinksWrapper {
+    background-color: inherit;
+  }
+
+  .HwLandingBrowseHeader,
+  .HwLandingLinksHeader {
+    outline-color: #828282;
+  }
+
+  .HwLandingQuickPageLink,
+  .HwLandingQuickBrowseLink,
+  #HwListIndex li,
+  .HwListSectionHeader {
+    background-color: #d5d5d5;
+  }
+
+  .HwLandingQuickPageLink,
+  .HwLandingQuickBrowseLink {
+    border-top-color: #ffffff;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+  }
+
+  .HwLandingQuickPageLink,
+  .HwLandingQuickBrowseLink,
+  a.HwVideoBar {
+    border-left-color: #ffffff;
+  }
+
+  .HwLandingQuickPageLink a,
+  .HwLandingQuickBrowseLink a,
+  .HwTopicsList li a,
+  #HwBackButton .HwBackText,
+  #HwListIndex li.HwIndexItemCurrent span.HwIndexItemCurrentToken,
+  #HwListIndex li a:visited,
+  #HwListIndex li a:hover,
+  #HwListIndex li a,
+  #HwListSubIndex li a:hover,
+  #HwListSubIndex li a:visited,
+  #HwListSubIndex li a,
+  .HwListSectionHeader h3 a {
+    color: #000000;
+  }
+
+  #HwListSubIndex li a {
+    background-color: #ffffff;
+  }
+
+  #HwListIndex li.HwIndexItemCurrent,
+  #HwListIndex li,
+  #HwListSubIndex li a.HwLinkListLetterPairCurrent {
+    background-color: #8b8b8b;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .HwiToolWrapper input[type="submit"].HwSearchButton,
+  .HwSearchContent input.HwSearchButton,
+  .HwLandingContentHeader,
+  .HwLandingBrowseHeader,
+  .HwLandingLinksHeader,
+  .HwLandingMenuItemBottom,
+  .HwLandingQuickPageLink a,
+  a.HwLandingMenuItemText,
+  .HwiToolWrapper input[type="submit"].HwSearchButton,
+  .HwSearchContent input.HwSearchButton,
+  .HwNavigationSection h2.HwSectionTitle,
+  #HwNavigation ul li.HwNavigationItemCurrent a,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover,
+  #HwNavigation ul li.HwNavigationItemCurrent a:active,
+  .HwCategory .HwContentTitle,
+  .HwList .HwContentTitle,
+  #HwSearchResultsHeader {
+    background-color: #8b8b8b;
+  }
+
+  .HwSearchContainter,
+  #HwNavigation ul li a,
+  .HwSearchContainter,
+  #HwNavigation ul li a {
+    border-color: #cccccc;
+  }
+
+  #HwFooter,
+  .HwCategoryListContent ol.HwCategoryColumn2 li:first-child a,
+  #HwSearchContent li a,
+  .HwCategoryListContent ol.HwCategoryColumn2 li:first-child a,
+  #HwFooter {
+    border-top-color: #000000;
+  }
+
+  #HwMiddleHomeLink,
+  #HwMiddleOpenSearchLink,
+  #HwCustomMiddleHeaderRight,
+  #HwCustomMiddleHeaderCenter,
+  #HwSearchWrapper,
+  #HwListSubIndex li a.HwLinkListLetterPairCurrent,
+  #HwCustomMiddleHeader,
+  #HwMiddleHomeLink,
+  #HwMiddleOpenSearchLink {
+    background-color: #ffffff;
+  }
+
+  #HwNavigationDropDown,
+  #HwNavigation ul li.HwNavigationItemCurrent a,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover,
+  #HwNavigation ul li.HwNavigationItemCurrent a:active {
+    border-top-color: #8b8b8b;
+  }
+
+  .HwCategory .HwContentTitle,
+  .HwList .HwContentTitle,
+  #HwNavStackHeader {
+    background-color: #d6d6d6;
+  }
+
+  a.HwCategoryTitlePlaceholderLink,
+  .HwLandingMenuItemBottom,
+  .HwLandingQuickPageLink a,
+  a.HwLandingMenuItemText,
+  .HwLandingMenuItemBottom:active,
+  .HwLandingLinksContent a:active,
+  .HwTopicsList a:active,
+  a.HwLandingMenuItemText:active,
+  .HwVideoCategoryContainer .HwCategoryListContent a:hover,
+  .HwVideoCategoryContainer .HwCategoryListContent a:active,
+  .HwCategory .HwContentTitle h1,
+  .HwList .HwContentTitle h1,
+  div.HwListSection ol li a:hover .HwListLinkText,
+  div.HwListSection ol li a:active .HwListLinkText,
+  #HwListIndex ol.HwMobileSubLetterList li a:hover .HwListLinkText,
+  #HwListIndex ol.HwMobileSubLetterList li a:active .HwListLinkText,
+  .HwListWrapper ol li a:active,
+  .HwListWrapper ol li a:hover,
+  .HwCategoryListContent ol li a:hover .HwListLinkText,
+  .HwCategoryListContent ol li a:active .HwListLinkText,
+  .HwContentNavigationNext a,
+  .HwContentNavigationPrev a,
+  .HwNavigationSection h2.HwSectionTitle,
+  .HwContentTitle h1,
+  #HwSearchContent li a:hover,
+  #HwSearchContent li a:active,
+  #HwNavigation ul li.HwNavigationItemCurrent a,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover,
+  #HwNavigation ul li.HwNavigationItemCurrent a:active,
+  #HwListIndex .HwListIndexInner > ol > li > a:active .HwListLinkText,
+  #HwListIndex .HwListIndexInner > ol > li > a:hover .HwListLinkText,
+  .HwSmallTopNavigationActive .HwSmallTopNavigationText,
+  .HwSmallTopNavigationText,
+  .HwContentTopNavigation a.HwContentTopNavigationTab {
+    color: #ffffff;
+  }
+
+  a.HwCategoryTitlePlaceholderLink,
+  .HwLandingMenuItemBottom,
+  .HwLandingQuickPageLink a,
+  a.HwLandingMenuItemText,
+  .HwLandingQuickPageLink a,
+  .HwLandingQuickBrowseLink a {
+    border-top-color: #ffffff;
+    border-right-color: #ffffff;
+    border-bottom-color: #ffffff;
+  }
+
+  a.HwCategoryTitlePlaceholderLink,
+  li.HwContentNavigationNext,
+  .HwLandingMenuItemBottom,
+  .HwLandingQuickPageLink a,
+  a.HwLandingMenuItemText,
+  .HwLandingQuickPageLink a,
+  .HwLandingQuickBrowseLink a {
+    border-left-color: #ffffff;
+  }
+
+  #HwListIndex .HwListIndexInner > ol > li,
+  #HwListIndex .HwListIndexInner > ol > li.HwIndexItemCurrent,
+  #HwListSubIndex ol li a:hover,
+  #HwListSubIndex ol li a:active,
+  #HwListSubIndex ol li a:visited,
+  #HwListSubIndex ol li a,
+  div.HwListSection ol li a,
+  #HwListIndex ol.HwMobileSubLetterList li a,
+  .HwListWrapper ol li,
+  .HwListDocumentTitle,
+  .HwCategoryListContent ol li a,
+  #HwListIndex .HwListIndexInner > ol > li,
+  #HwListIndex .HwListIndexInner > ol > li.HwIndexItemCurrent,
+  div.HwListSection ol li a,
+  #HwListIndex ol.HwMobileSubLetterList li a,
+  .HwListDocumentTitle,
+  .HwCategoryListContent ol li a {
+    border-bottom-color: #000000;
+  }
+
+  #HwNavigation ul li a {
+    background-color: #eeeeee;
+  }
+
+  .HwLandingContentHeader {
+    border-bottom-color: #d5d5d5;
+  }
+
+  .HwLandingContentHeader h1,
+  .HwVideoCategoryContainer .HwCategoryListContent a,
+  .HwVideoCategoryContainer .HwCategoryListContent a:visited,
+  #HwListIndex .HwListIndexInner > ol > li,
+  #HwListIndex .HwListIndexInner > ol > li.HwIndexItemCurrent,
+  div.HwListSectionHeader h3,
+  div.HwListSectionHeader h3 a,
+  #HwListIndex .HwListIndexInner > ol > li > a:visited,
+  #HwListIndex ol.HwMobileSubLetterList li a,
+  #HwListIndex ol.HwMobileSubLetterList li a:hover,
+  #HwListIndex ol.HwMobileSubLetterList li a:active,
+  #HwListIndex ol.HwMobileSubLetterList li a:visited,
+  #HwSearchContent li a,
+  #HwSearchContent li a:visited,
+  #HwNavStackHeader {
+    color: #000000;
+  }
+
+  .HwLandingBrowseHeader,
+  .HwLandingLinksHeader {
+    outline-color: #8b8b8b;
+  }
+
+  #HwFooter {
+    border-top-color: #c2c2c2;
+  }
+
+  .HwLandingMenuItemBottom:active,
+  .HwLandingLinksContent a:active,
+  .HwTopicsList a:active,
+  a.HwLandingMenuItemText:active,
+  div.HwListSection ol li a:hover,
+  div.HwListSection ol li a:active,
+  #HwNavigation ul li a:hover,
+  #HwNavigation ul li a:active,
+  #HwListIndex .HwListIndexInner > ol > li > a:active,
+  #HwListIndex .HwListIndexInner > ol > li > a:hover,
+  #HwListIndex ol.HwMobileSubLetterList li a:hover,
+  #HwListIndex ol.HwMobileSubLetterList li a:active,
+  .HwListWrapper ol li:active,
+  .HwListWrapper ol li:hover,
+  .HwCategoryListContent ol li a:hover,
+  .HwCategoryListContent ol li a:active,
+  #HwSearchContent li a:hover,
+  #HwSearchContent li a:active {
+    background-color: #a6a6a6;
+  }
+
+  #HwNavigation ul li.HwNavigationItemCurrent a,
+  #HwNavigation ul li.HwNavigationItemCurrent a:hover,
+  #HwNavigation ul li.HwNavigationItemCurrent a:active {
+    border-right-color: #8b8b8b;
+    border-bottom-color: #8b8b8b;
+    border-left-color: #8b8b8b;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTitle {
+    background-color: #3c3c3c;
+  }
+
+  .HwSmallTopNavigation .HwSmallTopListNavigation,
+  .HwSmallTopNavigation .HwSmallTopCategoryNavigation {
+    background-color: #000000;
+  }
+
+  .HwCategoryListContent .HwListLinkText,
+  .HwListIndexInner .HwListLinkText,
+  div.HwListSection .HwListLinkText,
+  #HwNavigation ul li a {
+    color: #444444;
+  }
+
+  li.HwContentNavigationNone,
+  li.HwContentNavigationNext,
+  li.HwContentNavigationPrev {
+    background-color: #151515;
+  }
+
+  li.HwContentNavigationNext:hover,
+  li.HwContentNavigationNext:active,
+  li.HwContentNavigationPrev:hover,
+  li.HwContentNavigationPrev:active {
+    background-color: #cccccc;
+  }
+
+  div.HwSearchResultsExtra ol li.HwSearchBestBet,
+  #HwSearchResultsSpecial .HwSearchResultsExtra li a {
+    background-color: #d2d2d2;
+  }
+
+  #HwSearchResultsMain li a,
+  #HwSearchResultsMain li a:visited {
+    color: #4d4d4d;
+  }
+
+  .HwContentTopNavigation a.HwContentTopNavigationTab,
+  .HwContentTopNavigationTabsLeft,
+  .HwContentTopNavigationTabsRight,
+  .HwContentTopNavigationTabsDivider {
+    border-color: #666666;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .HwContentTopNavigation a.HwContentTopNavigationActive {
+    background-color: #ffffff;
+    color: #3f3f3f;
+  }
+}
+
+@media screen and (max-width: 1039px) {
+  #HwListSubIndex li a.HwListSubIndexActive {
+    background-color: #8b8b8b;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #HwListIndex .HwListIndexInner ol li a,
+  #HwListSubIndex li a.HwListSubIndexActive {
+    background-color: #ffffff;
+  }
+
+  .HwList h2#HwListTitle,
+  #HwListSubIndex ol li a:hover,
+  #HwListSubIndex ol li a:active {
+    color: #ffffff;
+  }
+
+  .HwList h2#HwListTitle {
+    background-color: #8b8b8b;
+  }
+
+  #HwListSubIndex ol li a:hover,
+  #HwListSubIndex ol li a:active {
+    background-color: #a6a6a6;
+  }
+}
+
+#HwRatingContainerDesktop .HwCategoryWrapper {
+  border-bottom-color: #393939;
+}
+
+.HwRatingButton {
+  background-color: #393939;
+  color: #ffffff;
+}
+
+.HwRatingSeparator {
+  border-bottom-color: #b1b1b1;
+}
+
+.HwRatingOptionText,
+.HwRatingText,
+#HwFeedbackText {
+  color: #2e2e2e;
+}
+
+.HwRatingTabText,
+.HwRatingCheckBoxText {
+  color: #000000;
+}
+
+.HwBar {
+  border-color: #dddddd;
+  background-color: #ffffff;
+}
+
+.HwCategoryWrapper {
+  background-color: #f1f1f1;
+}
+
+.HwSelectedText {
+  color: #474747;
+}
+
+@media screen and (max-width: 768px) {
+  .HwRatingSeparator {
+    border-bottom-color: #b1b1b1;
+  }
+
+  .HwRatingOptionTabWrapperMobile,
+  #HwRatingContainerMobile .HwCategoryWrapper,
+  #HwRatingContainerMobile .HwCategoryWrapper {
+    background-color: #ffffff;
+  }
+
+  .HwRatingOptionTabWrapperMobile .HwRatingTab {
+    background-color: #e5e5e5;
+    border-bottom-color: #ffffff;
+  }
+
+  #HwRatingContainerMobile .HwRatingTabSelected {
+    background-color: #828282;
+  }
+
+  #HwRatingContainerMobile .HwRatingTabText.HwSelectedText {
+    color: #ffffff;
+  }
+
+  #HwRatingContainerMobile .HwRatingCheckBoxText.HwSelectedText {
+    color: #828282;
+  }
+}
+
+#SxCheckerApp .SxChkTabFocus {
+  outline-color: #b4b4b4;
+}
+
+#SxCheckerApp .SxChkPageOneContent,
+#SxCheckerApp .SxChkPageTwoContent {
+  background-color: #8b8b8b;
+}
+
+#SxCheckerApp .SxChkPageOneContent,
+#SxCheckerApp .SxChkPageTwoContent,
+#SxCheckerApp .SxChkBackBtnDiv {
+  border-bottom-color: #4c4c4c;
+}
+
+#SxCheckerApp .SxChkHeader,
+#SxCheckerApp .SxChkBackBtnDiv {
+  background-color: #4c4c4c;
+}
+
+.SxChkOtherLinksDiv .SxChkOtherLink,
+.SxChkViewAllLinks .SxChkViewAllLink,
+#SxCheckerApp .SxChkHeaderTitle,
+#SxCheckerApp .SxChkFamilyLabel,
+#SxChkAllLinksHeader,
+#SxCheckerApp .SxChkBackBtnDiv {
+  color: #ffffff;
+}
+
+#SxCheckerApp .SxChkPageLead,
+#SxChkAllLinksContainer .SxChkLinkListHeader {
+  color: #5f5f5f;
+}
+
+#SxCheckerApp #SxChkOtherLinksOverlayCell {
+  background-color: #666666;
+}
+
+#SxCheckerApp .SxchkFlipDiv {
+  color: #4a4a4a;
+}
+
+#SxCheckerApp .SxchkFlipDiv:hover {
+  color: #313131;
+}
+
+.SxChkOtherLinksDiv .SxChkOtherLinksHeader {
+  color: #000000;
+}
+
+.SxChkOtherLinksDiv .SxChkOtherLinkDiv,
+.SxChkViewAllLinks {
+  border-top-color: #ffffff;
+}
+
+.SxChkViewAllLinks {
+  border-bottom-color: #ffffff;
+}
+
+#SxCheckerApp .SxChkFooterSeparator,
+#SxChkAllLinksContainer .SxChkLinkDiv {
+  background-color: #ffffff;
+}
+
+#SxCheckerApp .SxChkFooterDecoration {
+  background-color: #828282;
+}
+
+#SxCheckerApp .SxChkFooterContentDiv {
+  background-color: #c0c0c0;
+}
+
+#SxCheckerApp .SxChkBackBtnDiv {
+  border-top-color: #4c4c4c;
+  border-right-color: #4c4c4c;
+  border-left-color: #4c4c4c;
+}
+
+#SxCheckerApp .SxChkBackBtnDiv:hover {
+  background-color: #313131;
+  border-color: #313131;
+}
+
+#SxChkAllLinksContainer {
+  border-top-color: #8f8f8f;
+  border-right-color: #8f8f8f;
+  border-left-color: #8f8f8f;
+}
+
+#SxChkAllLinksContainer,
+#SxChkAllLinksContainer .SxChkLinkListHeader {
+  border-bottom-color: #8f8f8f;
+}
+
+#SxChkAllLinksContainer .SxChkLinkListHeader {
+  background-color: #e8e8e8;
+}
+
+#SxChkAllLinksHeader {
+  background-color: #8f8f8f;
+}
+
+@media screen and (max-width: 1039px) {
+  #SxCheckerApp .SxchkFlipDiv,
+  #SxChkAllLinksContainer .SxChkLinkDiv a,
+  #SxChkAllLinksContainer .SxChkLinkListHeader {
+    border-color: #cccccc;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .SxChkOtherLinksDiv .SxChkViewAllLinks a,
+  .SxChkOtherLinksDiv .SxChkOtherLinkDiv a {
+    border-color: #cccccc;
+  }
+}
+
+@media screen and (max-width: 1039px) {
+  #SxCheckerApp .SxchkFlipDiv,
+  #SxChkAllLinksContainer .SxChkLinkDiv a,
+  #SxChkAllLinksContainer .SxChkLinkListHeader {
+    border-color: #cccccc;
+    color: #444444;
+  }
+
+  #SxCheckerApp .SxchkFlipDiv,
+  #SxChkAllLinksContainer .SxChkLinkDiv a {
+    background-color: #ffffff;
+  }
+
+  .SxChkIconPlusIcon,
+  .SxChkIconMinusIcon {
+    background-color: rgba(102,102,102,.4);
+  }
+
+  #SxChkAllLinksContainer .SxChkLinkDiv a {
+    color: #3a3a3a;
+  }
+
+  #SxChkAllLinksContainer .SxChkLinkListHeader {
+    background-color: #eeeeee;
+  }
+
+  #SxChkAllLinksHeader {
+    background-color: #8b8b8b;
+  }
+
+  #SxChkAllLinksContainer {
+    border-color: #666666;
+  }
+
+  #SxChkAllLinksContainer .SxChkLinkListHeader:active,
+  #SxChkAllLinksContainer .SxChkLinkListHeader:focus,
+  #SxChkAllLinksContainer .SxChkLinkDiv a:hover,
+  #SxChkAllLinksContainer .SxChkLinkDiv a:active,
+  #SxChkAllLinksContainer .SxChkLinkDiv a:focus,
+  .SxChkOtherLinksDiv .SxChkViewAllLinks:hover,
+  .SxChkOtherLinksDiv .SxChkOtherLinkDiv:hover,
+  .SxChkOtherLinksDiv .SxChkViewAllLinks:active,
+  .SxChkOtherLinksDiv .SxChkViewAllLinks:focus,
+  .SxChkOtherLinksDiv .SxChkOtherLinkDiv:active,
+  .SxChkOtherLinksDiv .SxChkOtherLinkDiv:focus,
+  #SxCheckerApp .SxchkFlipDiv:hover,
+  #SxCheckerApp .SxchkFlipDiv:active,
+  #SxCheckerApp .SxchkFlipDiv:focus {
+    background-color: #a6a6a6;
+    color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .SxChkOtherLinksDiv .SxChkOtherLinksHeader {
+    background-color: #d6d6d6;
+    color: #000000;
+  }
+
+  .SxChkOtherLinksDiv .SxChkViewAllLinks a,
+  .SxChkOtherLinksDiv .SxChkOtherLinkDiv a {
+    border-color: #cccccc;
+    color: #444444;
+    background-color: #eeeeee;
+  }
+
+  .SxChkOtherLinksDiv .SxChkViewAllLinks a:hover,
+  .SxChkOtherLinksDiv .SxChkViewAllLinks a:active,
+  .SxChkOtherLinksDiv .SxChkViewAllLinks a:focus,
+  .SxChkOtherLinksDiv .SxChkOtherLinkDiv a:hover,
+  .SxChkOtherLinksDiv .SxChkOtherLinkDiv a:active,
+  .SxChkOtherLinksDiv .SxChkOtherLinkDiv a:focus {
+    background-color: #a6a6a6;
+    color: #ffffff;
+  }
+}
+
+#HwCustomNavigationBottom {
+  color: inherit;
+}
+
+.HwLandingCustomBannerContainer {
+  border-color: #555555;
+}
+
+.HwSXBannerCYSText {
+  color: #000000;
+}
+
+.HwSxBannerFindOutWhat,
+.HwDPBannerDecisionToolsAbout {
+  color: #444444;
+}
+
+.HwSxBannerStartNow,
+.HwDPBannerWhenYouNeed,
+.HwDPBannerButton,
+.HwVideoLibraryMoreText a {
+  color: #ffffff;
+}
+
+#HwVideoContainerBackground {
+  border-color: #cccccc;
+}
+
+@media screen and (max-width: 1039px) {
+  .HwLandingLinks li {
+    background-color: #d5d5d5;
+  }
+
+  .HwNotFound h1,
+  .HwNotFound a,
+  .HwNotFound ul li {
+    color: #5f5f5f;
+  }
+
+  .HwNotFound p {
+    color: #d1d1d1;
+  }
+
+  .HwNotFound #HwSearchBox {
+    border-color: #cccccc;
+  }
+
+  .HwNotFoundSearch .HwSearchButton {
+    background-color: #4d4d4d;
+    color: #ffffff;
+    background-color: #7f7f7f;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #HwContentWrapper .hwContentTitle h1 {
+    color: #ffffff;
+  }
+
+  .HwNotFound h1,
+  .HwNotFound a {
+    color: #5f5f5f;
+  }
+
+  .HwNotFound p {
+    color: #d1d1d1;
+  }
+
+  .HwNotFoundSearch .HwSearchButton {
+    background-color: #8b8b8b;
+  }
+}
+
+@media screen and (min-width: 1040px) {
+  .HwNotFound h1,
+  .HwNotFound a,
+  .HwNotFound ul li {
+    color: #5f5f5f;
+  }
+
+  .HwNotFound p {
+    color: #d1d1d1;
+  }
+
+  .HwNotFound #HwSearchBox {
+    border-color: #cccccc;
+  }
+
+  .HwNotFoundSearch .HwSearchButton {
+    background-color: #4d4d4d;
+    color: #ffffff;
+    background-color: #7f7f7f;
+  }
+}
+
+#HwFooter,
+#HwFooter .HwElement {
+  color: #585858;
+}
+
+.HwTypeActionset .HwContentHeader,
+.HwTypeITool .HwContentHeader,
+.HwTypeConditionCenter .HwContentHeader,
+.HwTypeDecisionPoint .HwContentHeader,
+.HwTypeSymptom .HwContentHeader,
+#HwPopoutHeader,
+#HwTooltipHeader,
+#HwPopoutHeaderClose a,
+.HwLandingBrowseHeader,
+.HwLandingLinksHeader,
+.HwDecisionPointTitle,
+.HwDecisionPointHeadline,
+#HwNavigationFooter,
+.HwDpPrintSummarySliderBar,
+#HwMediaDialogTitleWrapper,
+.HwMediaDialogControlNumberWrapper:hover,
+.HwMediaDialogControlNumberWrapperSelected,
+.HwMediaDialogControlNumberWrapperSelected:focus {
+  background-color: #828282;
+}
+
+.HwIToolImageArea h3 {
+  color: #474747;
+}
+
+.HwConditionCenterClosed,
+.HwConditionCenterOpen {
+  border-color: #e0e0e0;
+}
+
+.HwConditionCenterClosed,
+.HwConditionCenterOpen,
+.HwCategoryList {
+  background-color: #f2f2f2;
+}
+
+.HwConditionCenterClosedAction,
+.HwConditionCenterOpenAction {
+  background-color: #d9d9d9;
+}
+
+.HwConditionCenterActionOuterBorder {
+  background-color: #c3c3c3;
+}
+
+.HwConditionCenterOuterBorder {
+  background-color: #e0e0e0;
+}
+
+.HwTypeLanding .HwBrand {
+  color: #6d6d6d;
+}
+
+.HwLandingMenu {
+  background-color: #f0f0f0;
+}
+
+.HwLandingMenu,
+.HwLandingBrowseContent {
+  border-color: #ededed;
+}
+
+.HwLandingMenu,
+.HwLandingBrowseLinksWrapper,
+.HwLandingBrowseLinksWrapperOuterBorder,
+.HwListIndexInner,
+.HwListSectionHeader {
+  background-color: #ededed;
+}
+
+a.HwLandingMenuItemText,
+.HwLandingBrowseHeader,
+.HwLandingLinksHeader,
+.HwPersonalStoriesWindowLink a,
+#HwMediaDialogTitle,
+.HwMediaDialogControlNumber,
+#HwMediaDialogControlCreditsText,
+#HwMediaDialogCredits,
+#HwSxBody .HwSxSelected.HwSxAnswerText,
+#HwSxControls .HwSxStartOver,
+#HwSxControls .HwSxPrevious,
+#HwSxControls .HwSxVersion:hover {
+  color: #ffffff;
+}
+
+.HwLandingBrowseContent,
+#HwYourSummary * .HwSliderLabel,
+.HwSliderFrame,
+.HwDpPrintSummarySlider,
+.HwDpPrintSummarySpacer,
+.HwLandingCustomBannerContainer,
+#HwMediaDialogContentMediaWrapper,
+.HwMediaGalleryImageWrapper,
+.HwMediaScrollImageWrapper,
+#HwMediaGalleryWindow {
+  background-color: #ffffff;
+}
+
+.HwTopicsList li,
+#HwListIndex li {
+  background-color: #d0d0d0;
+  border-color: #c2c2c2;
+}
+
+#HwListIndex a:visited,
+#HwListSubIndex a:visited,
+.HwListSection a:visited,
+.HwCategoryList li a:visited,
+#HwSearchContent a:visited {
+  color: #323232;
+}
+
+#HwListIndex .HwIndexItemCurrent {
+  background-color: #c9c9c9;
+}
+
+#HwListSubIndex,
+.HwSliderFrame,
+.HwSnapGuideline,
+.HwDpPrintSummarySliderBar {
+  border-color: #6d6d6d;
+}
+
+.HwCategoryList {
+  border-color: #d8d8d8;
+}
+
+.HwCategoryListOuterBorder {
+  background-color: #d8d8d8;
+}
+
+#HwSearchContent a,
+a:visited .HwSearchLinkNext,
+a:visited .HwSearchLinkPrev {
+  color: #4d4d4d;
+}
+
+.HwSearchResultsHeaderBox,
+.HwBackgroundBox,
+.HwFAQ .HwFAQBackgroundHeader,
+.ui-accordion-header .hasCorners,
+.HwFAQ .selected,
+.HwFAQBackgroundHeader,
+.ui-accordion-header .hasCorners .selected,
+.HwReferenceContainer .HwReferenceBackgroundHeader,
+.ui-accordion-header .hasCorners,
+.HwReferenceContainer .selected,
+.HwReferenceBackgroundHeader,
+.ui-accordion-header .hasCorners .selected,
+.HwReferenceHR,
+#HwComparisonWrapper,
+#HwComparisonBorder,
+.HwComparisonQuestions,
+.HwComparisonQuestion,
+.HwCompareSelectedValueContainer,
+.HwCompareOptionContainer,
+#HwSections,
+#HwPersonalStoriesHeadlineWrapper,
+#HwPersonalStoriesHeadlineBorder,
+#HwPersonalStoriesContentWrapper,
+#HwPersonalStoriesBorder,
+#HwPersonalStoriesHeader .HwActions,
+#HwQuizQuestionsWrapper,
+#HwQuizQuestionsBorder,
+p.HwSliderRightColor,
+#HwYourSummary * .HwSliderBackgroundHeading,
+.HwHorizontalSliderDivider,
+.HwIncompleteLink,
+.HwFAQContent th,
+.HwQuestionSkipped,
+.HwDpPrintSummarySliderSeparator,
+#HwSxBody .HwSxDisposition_yellow h4 {
+  background-color: #eaeaea;
+}
+
+.HwOrgTitle {
+  border-color: #d1d1d1;
+}
+
+#HwDecisionPointBody {
+  border-top-color: #828282;
+  border-right-color: #828282;
+  border-left-color: #828282;
+}
+
+#HwDecisionPointBody,
+#HwSxBody {
+  border-bottom-color: #828282;
+}
+
+.HwBooleanQuestion a,
+a.HwTabStopLink {
+  color: #000000;
+}
+
+#HwSections td+td {
+  border-color: #dbdbdb;
+}
+
+.HwSectionTab h3 {
+  color: #828282;
+}
+
+.grayText {
+  color: #cccccc;
+}
+
+.HwSliderHandleFocus,
+.HwSliderHandleHover {
+  background-color: #151515;
+  outline-color: #ededed;
+}
+
+#HwTooltipTextBox {
+  background-color: #f9f9f9;
+}
+
+.HwFAQBackgroundHeader a,
+.HwReferenceBackgroundHeader a {
+  color: #555555;
+}
+
+ul.HwCompareOptionContainer li {
+  background-color: #dbdbdb;
+}
+
+ul.HwCompareOptionContainer li.HwCompareOptionItemHover,
+ul.HwCompareOptionContainer li.HwCompareOptionViewed {
+  background-color: #6f6f6f;
+}
+
+.HwReferenceHR {
+  color: #eaeaea;
+}
+
+.HwComparisonHeading,
+.HwQuestionSet,
+.HwCompareOptionButton,
+.HwFAQContent table,
+.HwFAQContent td,
+.HwFAQContent th,
+textarea.HwSliderComment {
+  border-color: #eaeaea;
+}
+
+#HwYourSummary * .HwSliderHomePost {
+  background-color: #6d6d6d;
+}
+
+.HwSliderHomePost {
+  background-color: #b3b3b3;
+}
+
+.HwSliderHandle {
+  background-color: #626262;
+  border-color: #7f7f7f;
+}
+
+.HwComparisonHeading,
+.HwComparisonQuestions th,
+.HwCompareOptionButton,
+#HwPersonalStoriesHeadline,
+#HwPersonalStoriesHeader,
+.HwPopupQuizTextBox,
+.HwSliderRange,
+p.HwSectionTitle,
+.HwComparisonItemHeaderSelected,
+#HwSxBody .HwSxSelected.HwSxAnswerText:hover {
+  background-color: #4b4b4b;
+}
+
+.HwBooleanQuestion a:hover,
+.HwBooleanQuestion a:active {
+  color: #4b4b4b;
+}
+
+.HwBooleanQuestion a:active {
+  border-color: #4b4b4b;
+}
+
+#HwYourSummary * .HwSnapGuideline,
+#HwYourSummary * .HwSliderFrame {
+  border-right-color: #000000;
+}
+
+#HwYourSummary * .HwSliderFrame {
+  border-top-color: #000000;
+  border-bottom-color: #000000;
+  border-left-color: #000000;
+}
+
+.HwDpPrintSummaryPatientChoice,
+.HwDpPrintSummaryFactsKnowledgeAnswer {
+  color: #797979;
+}
+
+.HwDpPrintSummarySliderCenterPost,
+#HwMediaDialogCredits {
+  background-color: #000000;
+}
+
+.HwDpPrintSummaryTextCenterPost,
+.HwDpPrintSummarySliderVerticleSeperator {
+  background-color: #797979;
+}
+
+.HwLandingCustomBannerContainer,
+#HwSxBody .HwSxDispositionLinks {
+  border-top-color: #cccccc;
+}
+
+.HwLandingCustomBannerContainer {
+  border-right-color: #cccccc;
+  border-bottom-color: #cccccc;
+  border-left-color: #cccccc;
+}
+
+.HwSxBannerFindOutWhat,
+.HwDPBannerDecisionToolsAbout {
+  color: #404040;
+}
+
+#HwMediaGalleryHeaderTitle,
+#HwMediaGalleryHeaderSubtitle,
+#HwMediaDialogHeadingText,
+#HwMediaDialogContentText,
+#HwMediaDialogContentMobileText {
+  color: #202020;
+}
+
+#HwMediaGalleryWindowTitle {
+  color: #4e4e4e;
+}
+
+#HwMediaDialogControlWrapper {
+  background-color: #595959;
+}
+
+.HwCurrentMediaGalleryImageWrapperHighlight,
+.HwCurrentMediaScrollImageWrapper {
+  background-color: #4f4f4f;
+}
+
+#HwMediaGalleryBox,
+#HwDialogElement {
+  background-color: #e9e9e9;
+}
+
+.HwMediaScrollWindow,
+#HwMediaDialogContentTextWrapper,
+#HwMediaDialogContentMobileTextWrapper,
+#HwSxBody .HwSxDisposition_red h4 {
+  background-color: #d5d5d5;
+}
+
+.HwMediaDialogControlNumberWrapper:focus {
+  background-color: #a9a9a9;
+}
+
+#HwMediaGalleryWindowWrapper,
+.HwMediaGalleryImageWrapper,
+.HwMediaScrollWindow,
+.HwMediaScrollImageWrapper,
+.HwCurrentMediaScrollImageWrapper,
+.HwMediaDialogControlNumberWrapper,
+#HwDialogElementBodyWrapper,
+#HwMediaDialogCredits,
+#HwMediaDialogControlWrapper,
+#HwMediaDialogControlCreditsWrapper,
+#HwMediaDialogControlForwardWrapper,
+#HwMediaDialogControlBackWrapper,
+#HwMediaDialogContentTextWrapper,
+#HwMediaDialogContentMobileTextWrapper {
+  border-color: #a9a9a9;
+}
+
+.HwMediaGalleryImageCover:focus {
+  outline-color: #ffffff;
+}
+
+#HwSxBody .HwSxSelected.HwSxAnswerText {
+  background-color: #7b7b7b;
+}
+
+#HwSxBody .HwSxControls {
+  background-color: #c0c0c0;
+  border-bottom-color: #ffffff;
+}
+
+#HwSxControls .HwSxStartOver,
+#HwSxControls .HwSxPrevious {
+  border-color: #4c4c4c;
+  background-color: #818181;
+}
+
+#HwSxControls .HwSxVersion {
+  color: #c0c0c0;
+}
+
+#HwSxBody .HwSxTabAnswerFocus,
+#HwSxBody .HwSxTabControlFocus,
+#HwSxBody .HwSxTabLinkFocus,
+#definition-modal .HwSxTabModalCloseFocus:hover,
+#definition-modal .HwSxTabModalCloseFocus:focus,
+#search-modal .HwSxTabModalButtonFocus:hover,
+#search-modal .HwSxTabModalButtonFocus:focus {
+  border-color: #b4b4b4;
+  outline-color: #b4b4b4;
+}
+
+#HwSxBody .HwSxDisposition_emergency h4 {
+  background-color: #e8e8e8;
+}
+
+#HwSxBody .HwSxDisposition_black h4 {
+  background-color: #bfbfbf;
+}
+
+#HwSxBody .HwSxDisposition_green h4 {
+  background-color: #dfdfdf;
+}
+
+#HwSxBody .HwSxDispositionAdditionalSteps {
+  border-color: #888888;
+}
+
+@media screen and (max-width: 767px) {
+  #HwSxBody .HwSxAnswerSet,
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText,
+  #HwSxBody .HwSxPrevious,
+  #HwSxBody .HwSxStartOver,
+  #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink,
+  #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink {
+    border-top-color: #cccccc;
+    border-bottom-color: #cccccc;
+  }
+
+  #HwSxBody .HwSxAnswerSet,
+  #HwSxBody .HwSxPrevious,
+  #HwSxBody .HwSxStartOver,
+  #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink,
+  #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink {
+    border-right-color: #cccccc;
+    border-left-color: #cccccc;
+  }
+
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText {
+    background-color: #fdfdfd;
+    color: #444444;
+  }
+
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText:hover,
+  #HwSxBody .HwSxPrevious:hover,
+  #HwSxBody .HwSxStartOver:hover,
+  #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink:hover,
+  #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink:hover {
+    background-color: #d9d9d9;
+  }
+
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxSelected,
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxSelected:hover,
+  #HwSxBody .HwSxPrevious:active,
+  #HwSxBody .HwSxPrevious:focus,
+  #HwSxBody .HwSxStartOver:active,
+  #HwSxBody .HwSxStartOver:focus,
+  #HwSxBody .HwSxDispositionLinks div a:active,
+  #HwSxBody .HwSxDispositionLinks div a:focus,
+  #HwSxBody .HwSxDispositionLinks div:active a,
+  #HwSxBody .HwSxDispositionLinks div:focus a,
+  #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink:active,
+  #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink:focus,
+  #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink:active,
+  #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink:focus,
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText:active,
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText:focus {
+    color: #ffffff;
+  }
+
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxSelected,
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxSelected:hover {
+    background-color: #4b4b4b;
+  }
+
+  #HwSxBody .HwSxDispositionLinks div a,
+  #HwSxControls .HwSxStartOver,
+  #HwSxControls .HwSxPrevious {
+    color: #0f0f0f;
+  }
+
+  #HwSxBody .HwSxPrevious,
+  #HwSxBody .HwSxStartOver,
+  #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink,
+  #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink {
+    background-color: #ffffff;
+  }
+
+  #HwSxBody .HwSxPrevious:hover,
+  #HwSxBody .HwSxStartOver:hover,
+  #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink:hover,
+  #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink:hover {
+    border-color: #bbbbbb;
+  }
+
+  #HwSxBody .HwSxPrevious:active,
+  #HwSxBody .HwSxPrevious:focus,
+  #HwSxBody .HwSxStartOver:active,
+  #HwSxBody .HwSxStartOver:focus,
+  #HwSxBody .HwSxDispositionLinks div a:active,
+  #HwSxBody .HwSxDispositionLinks div a:focus,
+  #HwSxBody .HwSxDispositionLinks div:active a,
+  #HwSxBody .HwSxDispositionLinks div:focus a,
+  #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink:active,
+  #HwSxBody .HwSxDispositionLinks div.HwSxHomeTreatmentLink:focus,
+  #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink:active,
+  #HwSxBody .HwSxDispositionLinks div.HwSxRelatedInformationLink:focus,
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText:active,
+  #HwSxBody .HwSxAnswerSet .HwSxAnswer .HwSxAnswerText:focus {
+    background-color: #a6a6a6;
+  }
+}
+
+textarea,
+.HwDecisionPointContent li,
+.HwSectionTab,
+.HwCitationsContent a,
+.HwFAQQuestion,
+.HwReferenceLabel,
+.HwSummaryBackgroundHeader a,
+.HwCompareSelectedValueContainer,
+#HwPersonalStoriesHeader .HwActions a,
+.HwBooleanQuestion a,
+a.HwTabStopLink,
+#HwFlatHeadlineSubtext {
+  color: #000000;
+}
+
+#HwPersonalStoriesContentWrapper {
+  background-color: #999999;
+}
+
+#HwQuizQuestions.HwCorner,
+.HwReferenceContainer,
+.HwDecisionPointContent,
+#HwComparisonTable,
+.HwComparisonQuestionText,
+.HwComparisonItem,
+.HwStories,
+.HwStoriesFooter,
+#HwQuizQuestions,
+#HwYourSummary * .HwSliderLabel,
+.HwSliderFrame,
+#HwFlatDecisionPoint,
+#HwFlatDecisionPoint * .HwFAQBackgroundHeader {
+  background-color: #ffffff;
+}
+
+#HwDecisionPointBody {
+  border-color: #828282;
+}
+
+.HwDecisionPointContent a {
+  color: #5f5f5f;
+}
+
+.HwDecisionPointTitle,
+.HwDecisionPointHeadline,
+#HwNavigationFooter,
+.HwNavigationFooterESUS,
+.HwContentHeader {
+  background-color: #828282;
+}
+
+.HwDecisionPointTitle p,
+.HwSectionTabNumber a:active,
+.HwSectionTabSelected,
+.HwSectionTabSelected h3 a,
+.HwTypeDecisionPoint p.HwSectionTitle,
+#HwNavigationFooter a,
+.HwPopupQuizText,
+.HwPopupErrorText,
+.HwComparisonHeading,
+.HwComparisonQuestions th,
+td.HwComparisonEmptyHeader,
+.HwComparisonItemHeaderSelected,
+ul.HwCompareOptionContainer li.HwCompareOptionItemHover,
+ul.HwCompareOptionContainer li.HwCompareOptionViewed,
+#HwPersonalStoriesHeadlineBorder,
+#HwPersonalStoriesHeadline,
+.HwPersonalStoriesWindowLink a,
+#HwPersonalStoriesHeader,
+.HwPersonalStoriesContent h3.HwSubSectionTitle,
+.HwQuizSubtitleTop,
+.HwQuizSubtitle,
+.HwButtonSelected,
+.HwButtonSelected a,
+.HwContentHeader,
+.HwContent .HwDecisionPointHeadline h1,
+.HwContent .HwDecisionPointHeadline p {
+  color: #ffffff;
+}
+
+#HwSections td+td {
+  border-left-color: #dbdbdb;
+}
+
+.HwSectionTab {
+  border-left-color: #ffffff;
+  border-right-color: #ffffff;
+}
+
+.HwSectionTab h3 {
+  color: #828282;
+}
+
+.grayText {
+  color: #cccccc;
+}
+
+.HwSliderHandleFocus,
+.HwSliderHandleHover {
+  background-color: #151515;
+  outline-color: #ededed;
+}
+
+.HwSliderHandleFocus,
+.HwSliderHandleHover,
+#HwTooltipTextBox,
+#HwYourSummary * .HwSliderFrame,
+.HwFlatFAQ * td,
+.HwFlatFAQ * th,
+td.HwFlatSliderTableCell,
+.HwFlatCommentCell,
+.HwFlatCommentCellDoubleBox,
+div.HwFlatSliderBackground,
+textarea.HwFlatSliderComment.SliderComment,
+textarea.HwFlatSliderComment,
+textarea#HwFlatConcernsText,
+.HwFlatCommentsTableCellLeft,
+.HwFlatCommentsTableCellRight {
+  border-top-color: #000000;
+  border-bottom-color: #000000;
+  border-left-color: #000000;
+}
+
+.HwSliderHandleFocus,
+.HwSliderHandleHover,
+#HwTooltipTextBox,
+#HwYourSummary * .HwSnapGuideline,
+#HwYourSummary * .HwSliderFrame,
+.HwFlatFAQ * td,
+.HwFlatFAQ * th,
+td.HwFlatSliderTableCell,
+.HwFlatCommentCell,
+.HwFlatCommentCellDoubleBox,
+div.HwFlatSliderBackground,
+textarea.HwFlatSliderComment.SliderComment,
+textarea.HwFlatSliderComment,
+textarea#HwFlatConcernsText,
+.HwFlatCommentsTableCellLeft,
+.HwFlatCommentsTableCellRight {
+  border-right-color: #000000;
+}
+
+.HwPopupErrorTextBox {
+  background-color: #000000;
+}
+
+#HwTooltipTextBox {
+  background-color: #f9f9f9;
+}
+
+.HwFAQBackgroundHeader a,
+.HwReferenceBackgroundHeader a {
+  color: #555555;
+}
+
+.HwComparisonHeading,
+.HwQuestionSet,
+.HwCompareOptionButton,
+.HwFAQContent table,
+.HwFAQContent td,
+.HwFAQContent th,
+#HwQuizQuestions,
+textarea.HwSliderComment {
+  border-bottom-color: #eaeaea;
+}
+
+ul.HwCompareOptionContainer li,
+.HwSliderBackgroundSolid,
+p.HwSliderLeftColor {
+  background-color: #dbdbdb;
+}
+
+ul.HwCompareOptionContainer li.HwCompareOptionItemHover,
+ul.HwCompareOptionContainer li.HwCompareOptionViewed {
+  background-color: #6f6f6f;
+}
+
+#HwYourSummary * textarea.HwSliderComment {
+  border-color: inherit;
+}
+
+.HwBackgroundBox,
+.HwFAQ .HwFAQBackgroundHeader,
+.ui-accordion-header .hasCorners,
+.HwFAQ .selected,
+.HwFAQBackgroundHeader,
+.ui-accordion-header .hasCorners .selected,
+.HwReferenceContainer .HwReferenceBackgroundHeader,
+.ui-accordion-header .hasCorners,
+.HwReferenceContainer .selected,
+.HwReferenceBackgroundHeader,
+.ui-accordion-header .hasCorners .selected,
+.HwReferenceHR,
+#HwComparisonWrapper,
+#HwComparisonBorder,
+.HwComparisonQuestions,
+.HwComparisonQuestion,
+.HwCompareSelectedValueContainer,
+.HwCompareOptionContainer,
+#HwSections,
+#HwPersonalStoriesHeadlineWrapper,
+#HwPersonalStoriesHeadlineBorder,
+#HwPersonalStoriesContentWrapper,
+#HwPersonalStoriesBorder,
+#HwPersonalStoriesHeader .HwActions,
+#HwQuizQuestionsWrapper,
+#HwQuizQuestionsBorder,
+p.HwSliderRightColor,
+#HwYourSummary * .HwSliderBackgroundHeading,
+.HwHorizontalSliderDivider,
+.HwIncompleteLink,
+.HwFAQContent th,
+.HwQuestionSkipped {
+  background-color: #eaeaea;
+}
+
+.HwReferenceHR {
+  color: #eaeaea;
+}
+
+.HwCompareOptionButton,
+.HwFAQContent table,
+.HwFAQContent td,
+.HwFAQContent th,
+#HwQuizQuestions,
+textarea.HwSliderComment {
+  border-top-color: #eaeaea;
+  border-right-color: #eaeaea;
+  border-left-color: #eaeaea;
+}
+
+td.HwSummaryPatientChoicesAnswer,
+#HwYourSummary * .HwAnswerText {
+  color: #787878;
+}
+
+#HwYourSummary * .HwSliderHomePost {
+  background-color: #6d6d6d;
+}
+
+.HwSliderFrame,
+.HwSnapGuideline {
+  border-color: #6d6d6d;
+}
+
+.HwSliderHomePost {
+  background-color: #b3b3b3;
+}
+
+.HwSliderHandle {
+  background-color: #626262;
+  border-color: #7f7f7f;
+}
+
+.HwComparisonHeading,
+.HwComparisonQuestions th,
+td.HwComparisonEmptyHeader,
+.HwCompareOptionButton,
+#HwPersonalStoriesHeadline,
+#HwPersonalStoriesHeader,
+.HwPopupQuizTextBox,
+.HwQuizSubtitleTop,
+.HwQuizSubtitle,
+.HwSliderRange,
+p.HwSectionTitle,
+.HwComparisonItemHeaderSelected {
+  background-color: #4b4b4b;
+}
+
+.HwBooleanQuestion a:hover,
+.HwBooleanQuestion a:active {
+  color: #4b4b4b;
+}
+
+.HwBooleanQuestion a:active {
+  border-color: #4b4b4b;
+}
+
+.HwFlatDecisionPointDisclaimer {
+  border-top-color: #888888;
+  border-bottom-color: #888888;
+}
+
+.HwComparisonQuestions th,
+.HwComparisonQuestions td {
+  border-color: #d3d3d3;
+}
+
+@media screen and (max-width: 1024px) {
+  .HwAnswerTextWrapper {
+    border-color: #b3b3b3;
+    background-color: #ffffff;
+  }
+
+  .HwAnswerTextWrapper.HwAnswerTextWrapperSelected {
+    background-color: #787878;
+  }
+}
+
+#HwYourChoices .HwAnswerTextWrapper {
+  border-color: #b3b3b3;
+  background-color: #ffffff;
+}
+
+#HwYourChoices .HwAnswerTextWrapper.HwAnswerTextWrapperSelected {
+  background-color: #787878;
+}
+
+@media screen and (max-width: 767px) {
+  .HwPersonalStoryEven,
+  .HwPersonalStoryOdd {
+    border-bottom-color: #7f7f7f;
+  }
+
+  .HwQuizSubtitleText {
+    color: #4b4b4b;
+  }
+
+  .HwQuizSubtitleTop,
+  .HwQuizSubtitle {
+    background-color: #ffffff;
+  }
+
+  #HwMobileHwComparisonTableWrapper,
+  table.HwMobileHwComparisonTable,
+  table.HwMobileHwComparisonTableAndroid,
+  table.HwMobileHwComparisonTable th,
+  table.HwMobileHwComparisonTable tr,
+  table.HwMobileHwComparisonTable td,
+  table.HwMobileHwComparisonTable .HwFlatCompareOptionsQuestionCol {
+    border-top-color: #c5c5c5;
+  }
+
+  #HwMobileHwComparisonTableWrapper,
+  table.HwMobileHwComparisonTable,
+  table.HwMobileHwComparisonTableAndroid,
+  table.HwMobileHwComparisonTable th,
+  table.HwMobileHwComparisonTable tr,
+  table.HwMobileHwComparisonTable td {
+    border-right-color: #c5c5c5;
+    border-bottom-color: #c5c5c5;
+  }
+
+  #HwMobileHwComparisonTableWrapper,
+  table.HwMobileHwComparisonTable,
+  table.HwMobileHwComparisonTableAndroid,
+  table.HwMobileHwComparisonTable th,
+  table.HwMobileHwComparisonTable tr,
+  table.HwMobileHwComparisonTable td,
+  #HwMobileHwComparisonScrollingDiv {
+    border-left-color: #c5c5c5;
+  }
+
+  table.HwMobileHwComparisonTable th {
+    background-color: #707070;
+    color: #ffffff;
+  }
+
+  table.HwMobileHwComparisonTable .HwFlatCompareOptionsQuestionCol {
+    color: #000000;
+  }
+}
+
+ul.SegmentedControl li {
+  border-top-color: #a9a9a9;
+  border-right-color: #a9a9a9;
+  border-bottom-color: #a9a9a9;
+}
+
+ul.SegmentedControl li,
+ul.SegmentedControl li:first-child {
+  border-left-color: #a9a9a9;
+}
+
+ul.SegmentedControl li.Leftsegmentbutton,
+ul.SegmentedControl li.Rightsegmentbutton,
+ul.SegmentedControl li.Centersegmentbutton {
+  background-color: #d3d3d3;
+}
+
+ul.SegmentedControl li.highlighted.Leftsegmentbutton,
+ul.SegmentedControl li.highlighted.Rightsegmentbutton,
+ul.SegmentedControl li.Rightsegmentbutton.selected,
+ul.SegmentedControl li.Leftsegmentbutton.selected,
+ul.SegmentedControl li.Centersegmentbutton.selected,
+ul.SegmentedControl li.Centersegmentbutton.righthighlighted,
+ul.SegmentedControl li.Centersegmentbutton.lefthighlighted {
+  background-color: #a1a1a1;
+}
+
+p.HwSliderLeftColor,
+.HwSliderBackground,
+.HwSliderBackgroundSolid,
+#HwYourSummary ul.SegmentedControl li.Rightsegmentbutton,
+#HwYourSummary ul.SegmentedControl li.Leftsegmentbutton {
+  background-color: #ffffff;
+}
+
+.HwSliderBackground,
+.HwSliderBackgroundSolid {
+  border-color: #b3b3b3;
+}
+
+.HwSliderBackground.SliderTitleText {
+  background-color: #999999;
+}
+
+.HwBackgroundBox {
+  background-color: #e6e6e6;
+}
+
+.HwBackgroundBox p {
+  color: #000000;
+}
+
+#HwYourSummary ul.SegmentedControl li.highlighted.Leftsegmentbutton,
+#HwYourSummary ul.SegmentedControl li.highlighted.Rightsegmentbutton,
+#HwYourSummary ul.SegmentedControl li.Rightsegmentbutton.selected,
+#HwYourSummary ul.SegmentedControl li.Leftsegmentbutton.selected,
+#HwYourSummary ul.SegmentedControl li.Centersegmentbutton.selected {
+  background-color: #787878;
+}
+
+@media screen and (max-width: 767px) {
+  .HwMultiOptionSlider,
+  .HwMultiOptionSliderLeft {
+    border-top-color: #a9a9a9;
+  }
+}
+
+.muted,
+#HwiToolHTMLContent h1 small,
+#HwiToolHTMLContent h2 small,
+#HwiToolHTMLContent h3 small,
+#HwiToolHTMLContent h4 small,
+#HwiToolHTMLContent h5 small,
+#HwiToolHTMLContent h6 small,
+#HwiToolHTMLContent blockquote small,
+#HwiToolHTMLContent legend small,
+.uneditable-input,
+.uneditable-textarea,
+#HwiToolHTMLContent input:-moz-placeholder,
+#HwiToolHTMLContent textarea:-moz-placeholder,
+#HwiToolHTMLContent input:-ms-input-placeholder,
+#HwiToolHTMLContent textarea:-ms-input-placeholder,
+#HwiToolHTMLContent input::-webkit-input-placeholder,
+#HwiToolHTMLContent textarea::-webkit-input-placeholder,
+.dropdown-menu > .disabled > a,
+.dropdown-menu > .disabled > a:hover,
+.dropdown-menu > .disabled > a:focus,
+.nav-header,
+.nav > .disabled > a,
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a,
+.navbar-inverse .brand,
+.navbar-inverse .navbar-text,
+.navbar-inverse .navbar-link,
+.breadcrumb > .active,
+.pagination ul > .active > a,
+.pagination ul > .active > span,
+.pagination ul > .disabled > span,
+.pagination ul > .disabled > a,
+.pagination ul > .disabled > a:hover,
+.pagination ul > .disabled > a:focus,
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #999999;
+}
+
+a.muted:hover,
+a.muted:focus {
+  color: #7f7f7f;
+}
+
+.text-warning,
+.control-group.warning .control-label,
+.control-group.warning .help-block,
+.control-group.warning .help-inline,
+.control-group.warning .checkbox,
+.control-group.warning .radio,
+.control-group.warning input,
+.control-group.warning select,
+.control-group.warning textarea,
+.control-group.warning .input-prepend .add-on,
+.control-group.warning .input-append .add-on,
+.alert,
+.alert h4 {
+  color: #9c9c9c;
+}
+
+a.text-warning:hover,
+a.text-warning:focus,
+.HwiToolToolTip,
+#HwiToolHTMLContent #IctPage9 #HwiToolCalc010Title.HwiToolLabel {
+  color: #828282;
+}
+
+.text-error,
+.control-group.error .control-label,
+.control-group.error .help-block,
+.control-group.error .help-inline,
+.control-group.error .checkbox,
+.control-group.error .radio,
+.control-group.error input,
+.control-group.error select,
+.control-group.error textarea,
+.control-group.error .input-prepend .add-on,
+.control-group.error .input-append .add-on,
+#HwiToolHTMLContent input:focus:invalid,
+#HwiToolHTMLContent textarea:focus:invalid,
+#HwiToolHTMLContent select:focus:invalid,
+.alert-danger,
+.alert-error,
+.alert-danger h4,
+.alert-error h4 {
+  color: #6b6b6b;
+}
+
+a.text-error:hover,
+a.text-error:focus,
+#HwiToolHTMLContent select,
+#HwiToolHTMLContent textarea,
+#HwiToolHTMLContent input[type="text"],
+#HwiToolHTMLContent input[type="password"],
+#HwiToolHTMLContent input[type="datetime"],
+#HwiToolHTMLContent input[type="datetime-local"],
+#HwiToolHTMLContent input[type="date"],
+#HwiToolHTMLContent input[type="month"],
+#HwiToolHTMLContent input[type="time"],
+#HwiToolHTMLContent input[type="week"],
+#HwiToolHTMLContent input[type="number"],
+#HwiToolHTMLContent input[type="email"],
+#HwiToolHTMLContent input[type="url"],
+#HwiToolHTMLContent input[type="search"],
+#HwiToolHTMLContent input[type="tel"],
+#HwiToolHTMLContent input[type="color"],
+.uneditable-input,
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus,
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle,
+.thumbnail .caption,
+#HwiToolHTMLContent input:invalid:focus {
+  color: #555555;
+}
+
+.text-info,
+.control-group.info .control-label,
+.control-group.info .help-block,
+.control-group.info .help-inline,
+.control-group.info .checkbox,
+.control-group.info .radio,
+.control-group.info input,
+.control-group.info select,
+.control-group.info textarea,
+.control-group.info .input-prepend .add-on,
+.control-group.info .input-append .add-on,
+.alert-info,
+.alert-info h4 {
+  color: #747474;
+}
+
+a.text-info:hover,
+a.text-info:focus {
+  color: #5a5a5a;
+}
+
+.text-success,
+.control-group.success .control-label,
+.control-group.success .help-block,
+.control-group.success .help-inline,
+.control-group.success .checkbox,
+.control-group.success .radio,
+.control-group.success input,
+.control-group.success select,
+.control-group.success textarea,
+.control-group.success .input-prepend .add-on,
+.control-group.success .input-append .add-on,
+.alert-success,
+.alert-success h4 {
+  color: #6d6d6d;
+}
+
+a.text-success:hover,
+a.text-success:focus {
+  color: #515151;
+}
+
+#HwiToolHTMLContent h1,
+#HwiToolHTMLContent h2,
+#HwiToolHTMLContent h3,
+#HwiToolHTMLContent h4,
+#HwiToolHTMLContent h5,
+#HwiToolHTMLContent h6,
+#HwiToolHTMLContent pre code,
+.hero-unit,
+.hero-unit h1 {
+  color: inherit;
+}
+
+.page-header,
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus,
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus,
+.modal-header {
+  border-bottom-color: #eeeeee;
+}
+
+#HwiToolHTMLContent hr,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus,
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+  border-top-color: #eeeeee;
+}
+
+#HwiToolHTMLContent hr,
+.dropdown-menu .divider,
+.btn-primary .caret,
+.btn-warning .caret,
+.btn-danger .caret,
+.btn-info .caret,
+.btn-success .caret,
+.btn-inverse .caret,
+.nav-list .divider,
+.nav .active .dropdown-toggle .caret,
+.nav li.dropdown.open .caret,
+.nav li.dropdown.open.active .caret,
+.nav li.dropdown.open a:hover .caret,
+.nav li.dropdown.open a:focus .caret,
+.navbar .nav > li > .dropdown-menu:after,
+.navbar-inverse .nav li.dropdown > a:hover .caret,
+.navbar-inverse .nav li.dropdown > a:focus .caret,
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret,
+.popover.bottom .arrow:after,
+.carousel-control,
+#HwiToolHTMLContent #HwiToolContainer hr.HwiToolHorizLineWhite {
+  border-bottom-color: #ffffff;
+}
+
+#HwiToolHTMLContent abbr[title],
+#HwiToolHTMLContent abbr[data-original-title],
+.nav-tabs .open .dropdown-toggle,
+.nav-pills .open .dropdown-toggle,
+.nav > li.dropdown.open.active > a:hover,
+.nav > li.dropdown.open.active > a:focus,
+.tabs-stacked .open > a:hover,
+.tabs-stacked .open > a:focus,
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret,
+.modal,
+.popover.bottom .arrow {
+  border-bottom-color: #999999;
+}
+
+#HwiToolHTMLContent blockquote,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-left-color: #eeeeee;
+}
+
+blockquote.pull-right,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+  border-right-color: #eeeeee;
+}
+
+#HwiToolHTMLContent code,
+#HwiToolHTMLContent pre,
+#HwiToolHTMLContent legend,
+.dropdown-menu > li > a,
+.btn,
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled],
+.btn:hover,
+.btn:focus,
+.btn-link[disabled]:hover,
+.btn-link[disabled]:focus,
+.navbar-link:hover,
+.navbar-link:focus,
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover,
+.navbar-inverse .navbar-search .search-query:focus,
+.navbar-inverse .navbar-search .search-query.focused {
+  color: #333333;
+}
+
+#HwiToolHTMLContent code {
+  color: #535353;
+  border-color: #e1e1e1;
+}
+
+#HwiToolHTMLContent code,
+.popover-title,
+.progress {
+  background-color: #f7f7f7;
+}
+
+#HwiToolHTMLContent pre,
+.form-actions,
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th,
+.well,
+.btn,
+.navbar .btn-navbar .icon-bar,
+.breadcrumb,
+.pagination ul > li > a:hover,
+.pagination ul > li > a:focus,
+.pagination ul > .active > a,
+.pagination ul > .active > span,
+.pager li > a:hover,
+.pager li > a:focus,
+.modal-footer {
+  background-color: #f4f4f4;
+}
+
+#HwiToolHTMLContent pre,
+#HwiToolHTMLContent textarea,
+#HwiToolHTMLContent input[type="text"],
+#HwiToolHTMLContent input[type="password"],
+#HwiToolHTMLContent input[type="datetime"],
+#HwiToolHTMLContent input[type="datetime-local"],
+#HwiToolHTMLContent input[type="date"],
+#HwiToolHTMLContent input[type="month"],
+#HwiToolHTMLContent input[type="time"],
+#HwiToolHTMLContent input[type="week"],
+#HwiToolHTMLContent input[type="number"],
+#HwiToolHTMLContent input[type="email"],
+#HwiToolHTMLContent input[type="url"],
+#HwiToolHTMLContent input[type="search"],
+#HwiToolHTMLContent input[type="tel"],
+#HwiToolHTMLContent input[type="color"],
+.uneditable-input,
+#HwiToolHTMLContent select,
+.uneditable-input,
+.uneditable-textarea,
+.input-append .add-on,
+.input-prepend .add-on,
+.dropdown-menu,
+.btn,
+.navbar-fixed-bottom .nav > li > .dropdown-menu:before,
+.popover,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError .ui-datepicker-year,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError .ui-datepicker-month {
+  border-top-color: #cccccc;
+}
+
+#HwiToolHTMLContent pre,
+#HwiToolHTMLContent textarea,
+#HwiToolHTMLContent input[type="text"],
+#HwiToolHTMLContent input[type="password"],
+#HwiToolHTMLContent input[type="datetime"],
+#HwiToolHTMLContent input[type="datetime-local"],
+#HwiToolHTMLContent input[type="date"],
+#HwiToolHTMLContent input[type="month"],
+#HwiToolHTMLContent input[type="time"],
+#HwiToolHTMLContent input[type="week"],
+#HwiToolHTMLContent input[type="number"],
+#HwiToolHTMLContent input[type="email"],
+#HwiToolHTMLContent input[type="url"],
+#HwiToolHTMLContent input[type="search"],
+#HwiToolHTMLContent input[type="tel"],
+#HwiToolHTMLContent input[type="color"],
+.uneditable-input,
+#HwiToolHTMLContent select,
+.uneditable-input,
+.uneditable-textarea,
+.input-append .add-on,
+.input-prepend .add-on,
+.dropdown-menu,
+.btn,
+.popover,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError .ui-datepicker-year,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError .ui-datepicker-month {
+  border-right-color: #cccccc;
+}
+
+#HwiToolHTMLContent pre,
+#HwiToolHTMLContent textarea,
+#HwiToolHTMLContent input[type="text"],
+#HwiToolHTMLContent input[type="password"],
+#HwiToolHTMLContent input[type="datetime"],
+#HwiToolHTMLContent input[type="datetime-local"],
+#HwiToolHTMLContent input[type="date"],
+#HwiToolHTMLContent input[type="month"],
+#HwiToolHTMLContent input[type="time"],
+#HwiToolHTMLContent input[type="week"],
+#HwiToolHTMLContent input[type="number"],
+#HwiToolHTMLContent input[type="email"],
+#HwiToolHTMLContent input[type="url"],
+#HwiToolHTMLContent input[type="search"],
+#HwiToolHTMLContent input[type="tel"],
+#HwiToolHTMLContent input[type="color"],
+.uneditable-input,
+#HwiToolHTMLContent select,
+.uneditable-input,
+.uneditable-textarea,
+.input-append .add-on,
+.input-prepend .add-on,
+.dropdown-menu,
+.btn,
+.navbar .nav > li > .dropdown-menu:before,
+.popover,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError .ui-datepicker-year,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError .ui-datepicker-month {
+  border-bottom-color: #cccccc;
+}
+
+#HwiToolHTMLContent pre,
+#HwiToolHTMLContent textarea,
+#HwiToolHTMLContent input[type="text"],
+#HwiToolHTMLContent input[type="password"],
+#HwiToolHTMLContent input[type="datetime"],
+#HwiToolHTMLContent input[type="datetime-local"],
+#HwiToolHTMLContent input[type="date"],
+#HwiToolHTMLContent input[type="month"],
+#HwiToolHTMLContent input[type="time"],
+#HwiToolHTMLContent input[type="week"],
+#HwiToolHTMLContent input[type="number"],
+#HwiToolHTMLContent input[type="email"],
+#HwiToolHTMLContent input[type="url"],
+#HwiToolHTMLContent input[type="search"],
+#HwiToolHTMLContent input[type="tel"],
+#HwiToolHTMLContent input[type="color"],
+.uneditable-input,
+#HwiToolHTMLContent select,
+.uneditable-input,
+.uneditable-textarea,
+.input-append .add-on,
+.input-prepend .add-on,
+.dropdown-menu,
+.dropdown-submenu > a:after,
+.btn,
+.popover,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError .ui-datepicker-year,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError .ui-datepicker-month {
+  border-left-color: #cccccc;
+}
+
+#HwiToolHTMLContent pre,
+.well blockquote {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+#HwiToolHTMLContent legend,
+.accordion-group {
+  border-bottom-color: #e5e5e5;
+}
+
+#HwiToolHTMLContent textarea,
+#HwiToolHTMLContent input[type="text"],
+#HwiToolHTMLContent input[type="password"],
+#HwiToolHTMLContent input[type="datetime"],
+#HwiToolHTMLContent input[type="datetime-local"],
+#HwiToolHTMLContent input[type="date"],
+#HwiToolHTMLContent input[type="month"],
+#HwiToolHTMLContent input[type="time"],
+#HwiToolHTMLContent input[type="week"],
+#HwiToolHTMLContent input[type="number"],
+#HwiToolHTMLContent input[type="email"],
+#HwiToolHTMLContent input[type="url"],
+#HwiToolHTMLContent input[type="search"],
+#HwiToolHTMLContent input[type="tel"],
+#HwiToolHTMLContent input[type="color"],
+.uneditable-input,
+#HwiToolHTMLContent select,
+.table .table,
+.dropdown-menu,
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus,
+.navbar-inverse .navbar-search .search-query:focus,
+.navbar-inverse .navbar-search .search-query.focused,
+.pagination ul > li > a,
+.pagination ul > li > span,
+.pager li > a,
+.pager li > span,
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span,
+.modal,
+.popover,
+.carousel-indicators .active,
+.HwiToolSpanOne.HwiToolSpanBackground {
+  background-color: #ffffff;
+}
+
+#HwiToolHTMLContent textarea:focus,
+#HwiToolHTMLContent input[type="text"]:focus,
+#HwiToolHTMLContent input[type="password"]:focus,
+#HwiToolHTMLContent input[type="datetime"]:focus,
+#HwiToolHTMLContent input[type="datetime-local"]:focus,
+#HwiToolHTMLContent input[type="date"]:focus,
+#HwiToolHTMLContent input[type="month"]:focus,
+#HwiToolHTMLContent input[type="time"]:focus,
+#HwiToolHTMLContent input[type="week"]:focus,
+#HwiToolHTMLContent input[type="number"]:focus,
+#HwiToolHTMLContent input[type="email"]:focus,
+#HwiToolHTMLContent input[type="url"]:focus,
+#HwiToolHTMLContent input[type="search"]:focus,
+#HwiToolHTMLContent input[type="tel"]:focus,
+#HwiToolHTMLContent input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+}
+
+#HwiToolHTMLContent select:focus,
+#HwiToolHTMLContent input[type="file"]:focus,
+#HwiToolHTMLContent input[type="radio"]:focus,
+#HwiToolHTMLContent input[type="checkbox"]:focus,
+.btn:focus {
+  outline-color: #333333;
+}
+
+.uneditable-input,
+.uneditable-textarea {
+  background-color: #fbfbfb;
+}
+
+#HwiToolHTMLContent input[disabled],
+#HwiToolHTMLContent select[disabled],
+#HwiToolHTMLContent textarea[disabled],
+#HwiToolHTMLContent input[readonly],
+#HwiToolHTMLContent select[readonly],
+#HwiToolHTMLContent textarea[readonly],
+.input-append .add-on,
+.input-prepend .add-on,
+.nav > li > a:hover,
+.nav > li > a:focus,
+.hero-unit {
+  background-color: #eeeeee;
+}
+
+.control-group.warning input,
+.control-group.warning select,
+.control-group.warning textarea,
+.control-group.warning .input-prepend .add-on,
+.control-group.warning .input-append .add-on {
+  border-color: #9c9c9c;
+}
+
+.control-group.warning input:focus,
+.control-group.warning select:focus,
+.control-group.warning textarea:focus,
+.btn.HwiToolButtonsOption:active .HwiToolCheckContainer {
+  border-color: #828282;
+}
+
+.control-group.warning .input-prepend .add-on,
+.control-group.warning .input-append .add-on,
+.table tbody tr.warning > td,
+.alert {
+  background-color: #f6f6f6;
+}
+
+.control-group.error input,
+.control-group.error select,
+.control-group.error textarea,
+.control-group.error .input-prepend .add-on,
+.control-group.error .input-append .add-on {
+  border-color: #6b6b6b;
+}
+
+.control-group.error input:focus,
+.control-group.error select:focus,
+.control-group.error textarea:focus,
+.nav-tabs .active .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle .caret {
+  border-top-color: #555555;
+  border-bottom-color: #555555;
+}
+
+.control-group.error input:focus,
+.control-group.error select:focus,
+.control-group.error textarea:focus {
+  border-right-color: #555555;
+  border-left-color: #555555;
+}
+
+.control-group.error .input-prepend .add-on,
+.control-group.error .input-append .add-on,
+.table tbody tr.error > td,
+.alert-danger,
+.alert-error {
+  background-color: #e4e4e4;
+}
+
+.control-group.success input,
+.control-group.success select,
+.control-group.success textarea,
+.control-group.success .input-prepend .add-on,
+.control-group.success .input-append .add-on {
+  border-color: #6d6d6d;
+}
+
+.control-group.success input:focus,
+.control-group.success select:focus,
+.control-group.success textarea:focus {
+  border-color: #515151;
+}
+
+.control-group.success .input-prepend .add-on,
+.control-group.success .input-append .add-on,
+.control-group.info .input-prepend .add-on,
+.control-group.info .input-append .add-on,
+.table tbody tr.success > td,
+.table tbody tr.info > td,
+.alert-success,
+.alert-info {
+  background-color: #e8e8e8;
+}
+
+.control-group.info input,
+.control-group.info select,
+.control-group.info textarea,
+.control-group.info .input-prepend .add-on,
+.control-group.info .input-append .add-on {
+  border-color: #747474;
+}
+
+.control-group.info input:focus,
+.control-group.info select:focus,
+.control-group.info textarea:focus {
+  border-color: #5a5a5a;
+}
+
+#HwiToolHTMLContent input:focus:invalid,
+#HwiToolHTMLContent textarea:focus:invalid,
+#HwiToolHTMLContent select:focus:invalid {
+  border-color: #898989;
+}
+
+#HwiToolHTMLContent input:focus:invalid:focus,
+#HwiToolHTMLContent textarea:focus:invalid:focus,
+#HwiToolHTMLContent select:focus:invalid:focus {
+  border-color: #686868;
+}
+
+.form-actions,
+.navbar .btn-navbar,
+.accordion-group,
+.accordion-inner {
+  border-top-color: #e5e5e5;
+}
+
+.help-block,
+.help-inline {
+  color: #595959;
+}
+
+.input-append .active,
+.input-prepend .active {
+  background-color: #c6c6c6;
+  border-color: #7e7e7e;
+}
+
+.table th,
+.table td,
+.table tbody + tbody,
+.table-bordered,
+.well blockquote,
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus,
+.nav-tabs.nav-stacked > li > a,
+.nav-tabs.nav-stacked > li > a:hover,
+.nav-tabs.nav-stacked > li > a:focus,
+.tabs-below > .nav-tabs,
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus,
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus,
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus,
+.pagination ul > li > a,
+.pagination ul > li > span,
+.pager li > a,
+.pager li > span,
+.modal-footer,
+.thumbnail {
+  border-top-color: #dddddd;
+}
+
+.table-bordered,
+.well blockquote,
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus,
+.nav-tabs.nav-stacked > li > a,
+.nav-tabs.nav-stacked > li > a:hover,
+.nav-tabs.nav-stacked > li > a:focus,
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus,
+.tabs-left > .nav-tabs,
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus,
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus,
+.pagination ul > li > a,
+.pagination ul > li > span,
+.pager li > a,
+.pager li > span,
+.thumbnail {
+  border-right-color: #dddddd;
+}
+
+.table-bordered,
+.well blockquote,
+.nav-tabs,
+.nav-tabs > li > a:hover,
+.nav-tabs > li > a:focus,
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus,
+.nav-tabs.nav-stacked > li > a,
+.nav-tabs.nav-stacked > li > a:hover,
+.nav-tabs.nav-stacked > li > a:focus,
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus,
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus,
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus,
+.pagination ul > li > a,
+.pagination ul > li > span,
+.pager li > a,
+.pager li > span,
+.thumbnail {
+  border-bottom-color: #dddddd;
+}
+
+.table-bordered,
+.table-bordered th,
+.table-bordered td,
+.well blockquote,
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus,
+.nav-tabs.nav-stacked > li > a,
+.nav-tabs.nav-stacked > li > a:hover,
+.nav-tabs.nav-stacked > li > a:focus,
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus,
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus,
+.tabs-right > .nav-tabs,
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus,
+.pagination ul > li > a,
+.pagination ul > li > span,
+.pager li > a,
+.pager li > span,
+.thumbnail {
+  border-left-color: #dddddd;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+.table-hover tbody tr.success:hover > td {
+  background-color: #dddddd;
+}
+
+.table-hover tbody tr.error:hover > td {
+  background-color: #d5d5d5;
+}
+
+.table-hover tbody tr.warning:hover > td {
+  background-color: #f0f0f0;
+}
+
+.table-hover tbody tr.info:hover > td {
+  background-color: #dbdbdb;
+}
+
+.caret,
+.tooltip.top .tooltip-arrow,
+#HwiToolHTMLContent #HwiToolPrintPopUp.modal,
+#HwiToolHTMLContent #HwiToolAlertMessagePopUp.modal,
+#HwiToolHTMLContent #HwiToolErrorMessagePopUp.modal {
+  border-top-color: #000000;
+}
+
+.dropdown-menu,
+.navbar-fixed-bottom .nav > li > .dropdown-menu:before,
+.popover {
+  border-top-color: rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu,
+.popover {
+  border-right-color: rgba(0, 0, 0, 0.2);
+  border-left-color: rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu,
+.navbar .nav > li > .dropdown-menu:before,
+.popover {
+  border-bottom-color: rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu .divider,
+.nav-list .divider,
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus,
+.navbar .btn-navbar:hover,
+.navbar .btn-navbar:focus,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active,
+.navbar .btn-navbar.disabled,
+.navbar .btn-navbar[disabled],
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle,
+.HwiToolBodyContainer,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolPage {
+  background-color: #e5e5e5;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus,
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled],
+.btn-warning,
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
+.btn-warning[disabled],
+.btn-danger,
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled],
+.btn-success,
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled],
+.btn-info,
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled],
+.btn-inverse,
+.btn-inverse:hover,
+.btn-inverse:focus,
+.btn-inverse:active,
+.btn-inverse.active,
+.btn-inverse.disabled,
+.btn-inverse[disabled],
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus,
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus,
+.nav-tabs .open .dropdown-toggle,
+.nav-pills .open .dropdown-toggle,
+.nav > li.dropdown.open.active > a:hover,
+.nav > li.dropdown.open.active > a:focus,
+.navbar .btn-navbar,
+.navbar .btn-navbar:hover,
+.navbar .btn-navbar:focus,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active,
+.navbar .btn-navbar.disabled,
+.navbar .btn-navbar[disabled],
+.navbar-inverse .brand:hover,
+.navbar-inverse .nav > li > a:hover,
+.navbar-inverse .brand:focus,
+.navbar-inverse .nav > li > a:focus,
+.navbar-inverse .nav > li > a:focus,
+.navbar-inverse .nav > li > a:hover,
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus,
+.navbar-inverse .navbar-link:hover,
+.navbar-inverse .navbar-link:focus,
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle,
+.navbar-inverse .navbar-search .search-query,
+.navbar-inverse .btn-navbar,
+.navbar-inverse .btn-navbar:hover,
+.navbar-inverse .btn-navbar:focus,
+.navbar-inverse .btn-navbar:active,
+.navbar-inverse .btn-navbar.active,
+.navbar-inverse .btn-navbar.disabled,
+.navbar-inverse .btn-navbar[disabled],
+.tooltip-inner,
+.label,
+.badge,
+a.label:hover,
+a.label:focus,
+a.badge:hover,
+a.badge:focus,
+.progress .bar,
+.carousel-control,
+.carousel-control:hover,
+.carousel-control:focus,
+.carousel-caption h4,
+.carousel-caption p,
+#HwiToolHTMLContent #HwiToolHeader .HwiToolSubtitle,
+.HwiToolCalcBody .btn.HwiToolButtonsOption:active,
+.HwiToolCalcBody .btn.HwiToolButtonsOption.active:active,
+.HwiToolButtonText:active,
+.HwiToolPopupPrintButton:active {
+  color: #ffffff;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a,
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+  background-color: #616161;
+}
+
+.dropup .caret,
+.navbar-fixed-bottom .dropdown .caret,
+.btn-inverse,
+.navbar-inverse .btn-navbar,
+.tooltip.bottom .tooltip-arrow,
+#HwiToolHTMLContent #HwiToolPrintPopUp.modal,
+#HwiToolHTMLContent #HwiToolAlertMessagePopUp.modal,
+#HwiToolHTMLContent #HwiToolErrorMessagePopUp.modal {
+  border-bottom-color: #000000;
+}
+
+.dropdown-submenu:hover > a:after,
+.popover.left .arrow:after,
+.carousel-control,
+div.HwiToolVericalLineWhiteGray,
+#HwiToolHTMLContent #HwiToolContainer hr.HwiToolHorizLineWhite {
+  border-left-color: #ffffff;
+}
+
+.well {
+  border-color: #e3e3e3;
+}
+
+.close,
+.close:hover,
+.close:focus,
+#HwiToolHTMLContent a,
+#HwiToolHTMLContent a:hover,
+#HwiToolHTMLContent a:focus,
+.HwiToolCalcBody .btn.HwiToolButtonsOption.active,
+.HwiToolCalcBody .btn.HwiToolButtonsOption.active:focus,
+.HwiToolButton,
+.HwiToolPopupPrintButton,
+#HwiToolHTMLContent #HwiToolTitleMessage {
+  color: #000000;
+}
+
+.btn {
+  border-top-color: #e6e6e6;
+  border-right-color: #e6e6e6;
+  border-left-color: #e6e6e6;
+  border-bottom-color: #b3b3b3;
+}
+
+.btn,
+.navbar .btn-navbar {
+  border-bottom-color: #bfbfbf;
+}
+
+.btn,
+.btn-primary,
+.btn-warning,
+.btn-danger,
+.btn-success,
+.btn-info,
+.btn-inverse,
+.navbar .btn-navbar,
+.navbar-inverse .btn-navbar {
+  border-top-color: rgba(0, 0, 0, 0.1);
+  border-right-color: rgba(0, 0, 0, 0.1);
+  border-left-color: rgba(0, 0, 0, 0.1);
+}
+
+.btn,
+.btn-primary,
+.btn-warning,
+.btn-danger,
+.btn-success,
+.btn-info,
+.btn-inverse,
+.navbar .btn-navbar,
+.navbar-inverse .btn-navbar,
+.popover.bottom .arrow {
+  border-bottom-color: rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled],
+.btn-group.open .btn.dropdown-toggle {
+  background-color: #e6e6e6;
+}
+
+.btn:active,
+.btn.active,
+.navbar .btn-navbar:active,
+.navbar .btn-navbar.active,
+.carousel-indicators li {
+  background-color: #cccccc;
+}
+
+.btn-primary.active,
+.btn-warning.active,
+.btn-danger.active,
+.btn-success.active,
+.btn-info.active,
+.btn-inverse.active {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.btn-primary {
+  background-color: #565656;
+  border-top-color: #3e3e3e;
+  border-right-color: #3e3e3e;
+  border-bottom-color: #262626;
+  border-left-color: #3e3e3e;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled],
+.btn-group.open .btn-primary.dropdown-toggle {
+  background-color: #3e3e3e;
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #2e2e2e;
+}
+
+.btn-warning,
+.progress-warning .bar,
+.progress .bar-warning {
+  background-color: #b3b3b3;
+}
+
+.btn-warning {
+  border-top-color: #a2a2a2;
+  border-right-color: #a2a2a2;
+  border-bottom-color: #717171;
+  border-left-color: #a2a2a2;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active,
+.btn-warning.active,
+.btn-warning.disabled,
+.btn-warning[disabled],
+.btn-group.open .btn-warning.dropdown-toggle,
+.label-warning,
+.badge-warning {
+  background-color: #a2a2a2;
+}
+
+.btn-warning:active,
+.btn-warning.active,
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success[disabled],
+.btn-group.open .btn-success.dropdown-toggle,
+.label-warning[href],
+.badge-warning[href] {
+  background-color: #818181;
+}
+
+.btn-danger {
+  background-color: #787878;
+  border-top-color: #5d5d5d;
+  border-right-color: #5d5d5d;
+  border-bottom-color: #3f3f3f;
+  border-left-color: #5d5d5d;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger.disabled,
+.btn-danger[disabled],
+.btn-group.open .btn-danger.dropdown-toggle {
+  background-color: #5d5d5d;
+}
+
+.btn-danger:active,
+.btn-danger.active {
+  background-color: #494949;
+}
+
+.btn-success {
+  background-color: #919191;
+  border-top-color: #818181;
+  border-right-color: #818181;
+  border-bottom-color: #595959;
+  border-left-color: #818181;
+}
+
+.btn-success:active,
+.btn-success.active,
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus,
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > .active > a:focus {
+  background-color: #666666;
+}
+
+.btn-info,
+.progress-success .bar,
+.progress .bar-success {
+  background-color: #939393;
+}
+
+.btn-info {
+  border-top-color: #7a7a7a;
+  border-right-color: #7a7a7a;
+  border-bottom-color: #505050;
+  border-left-color: #7a7a7a;
+}
+
+.btn-info:hover,
+.btn-info:focus,
+.btn-info:active,
+.btn-info.active,
+.btn-info.disabled,
+.btn-info[disabled],
+.btn-group.open .btn-info.dropdown-toggle,
+.progress-danger .bar,
+.progress .bar-danger {
+  background-color: #7a7a7a;
+}
+
+.btn-info:active,
+.btn-info.active {
+  background-color: #5e5e5e;
+}
+
+.btn-inverse {
+  background-color: #363636;
+  border-top-color: #222222;
+  border-left-color: #222222;
+}
+
+.btn-inverse,
+.navbar-inverse .divider-vertical {
+  border-right-color: #222222;
+}
+
+.btn-inverse:hover,
+.btn-inverse:focus,
+.btn-inverse:active,
+.btn-inverse.active,
+.btn-inverse.disabled,
+.btn-inverse[disabled],
+.btn-group.open .btn-inverse.dropdown-toggle,
+.carousel-control {
+  background-color: #222222;
+}
+
+.btn-inverse:active,
+.btn-inverse.active {
+  background-color: #070707;
+}
+
+.btn-link {
+  color: #666666;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+  color: #404040;
+}
+
+.btn-primary .caret,
+.btn-warning .caret,
+.btn-danger .caret,
+.btn-info .caret,
+.btn-success .caret,
+.btn-inverse .caret,
+.nav .active .dropdown-toggle .caret,
+.nav li.dropdown.open .caret,
+.nav li.dropdown.open.active .caret,
+.nav li.dropdown.open a:hover .caret,
+.nav li.dropdown.open a:focus .caret,
+.navbar-fixed-bottom .nav > li > .dropdown-menu:after,
+.navbar-inverse .nav li.dropdown > a:hover .caret,
+.navbar-inverse .nav li.dropdown > a:focus .caret,
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle .caret,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle .caret,
+.popover.top .arrow:after,
+.carousel-control,
+#HwiToolHTMLContent #HwiToolContainer hr.HwiToolHorizLineWhite {
+  border-top-color: #ffffff;
+}
+
+.alert {
+  border-color: #efefef;
+}
+
+.alert-success {
+  border-color: #dfdfdf;
+}
+
+.alert-danger,
+.alert-error,
+.alert-info {
+  border-color: #dbdbdb;
+}
+
+.nav .dropdown-toggle .caret,
+a.thumbnail:hover,
+a.thumbnail:focus {
+  border-top-color: #666666;
+  border-bottom-color: #666666;
+}
+
+.nav .dropdown-toggle:hover .caret,
+.nav .dropdown-toggle:focus .caret {
+  border-top-color: #404040;
+  border-bottom-color: #404040;
+}
+
+.nav-tabs .open .dropdown-toggle,
+.nav-pills .open .dropdown-toggle,
+.nav > li.dropdown.open.active > a:hover,
+.nav > li.dropdown.open.active > a:focus,
+.label,
+.badge {
+  background-color: #999999;
+}
+
+.nav-tabs .open .dropdown-toggle,
+.nav-pills .open .dropdown-toggle,
+.nav > li.dropdown.open.active > a:hover,
+.nav > li.dropdown.open.active > a:focus,
+.tabs-stacked .open > a:hover,
+.tabs-stacked .open > a:focus,
+.navbar-inverse .nav li.dropdown > .dropdown-toggle .caret,
+.modal,
+.popover.top .arrow {
+  border-top-color: #999999;
+}
+
+.nav-tabs .open .dropdown-toggle,
+.nav-pills .open .dropdown-toggle,
+.nav > li.dropdown.open.active > a:hover,
+.nav > li.dropdown.open.active > a:focus,
+.tabs-stacked .open > a:hover,
+.tabs-stacked .open > a:focus,
+.modal,
+.popover.right .arrow {
+  border-right-color: #999999;
+}
+
+.nav-tabs .open .dropdown-toggle,
+.nav-pills .open .dropdown-toggle,
+.nav > li.dropdown.open.active > a:hover,
+.nav > li.dropdown.open.active > a:focus,
+.tabs-stacked .open > a:hover,
+.tabs-stacked .open > a:focus,
+.modal,
+.popover.left .arrow {
+  border-left-color: #999999;
+}
+
+.navbar-inner {
+  background-color: #fafafa;
+  border-color: #d4d4d4;
+}
+
+.navbar .brand,
+.navbar-text,
+.navbar-link,
+.navbar .nav > li > a {
+  color: #777777;
+}
+
+.navbar .divider-vertical,
+.popover.right .arrow:after,
+.carousel-control,
+#HwiToolHTMLContent #HwiToolContainer hr.HwiToolHorizLineWhite {
+  border-right-color: #ffffff;
+}
+
+.navbar .divider-vertical {
+  border-left-color: #f2f2f2;
+}
+
+.navbar .btn-navbar {
+  background-color: #ececec;
+}
+
+.navbar .btn-navbar,
+.accordion-group {
+  border-right-color: #e5e5e5;
+  border-left-color: #e5e5e5;
+}
+
+.navbar .nav li.dropdown > a:hover .caret,
+.navbar .nav li.dropdown > a:focus .caret {
+  border-top-color: #333333;
+  border-bottom-color: #333333;
+}
+
+.navbar .nav li.dropdown > .dropdown-toggle .caret {
+  border-top-color: #777777;
+  border-bottom-color: #777777;
+}
+
+.navbar-inverse .navbar-inner {
+  background-color: #1b1b1b;
+  border-color: #252525;
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus,
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.active > .dropdown-toggle,
+.navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+  background-color: #111111;
+}
+
+.navbar-inverse .divider-vertical,
+.navbar-inverse .navbar-search .search-query {
+  border-left-color: #111111;
+}
+
+.navbar-inverse .navbar-search .search-query,
+.label-success[href],
+.badge-success[href] {
+  background-color: #515151;
+}
+
+.navbar-inverse .navbar-search .search-query {
+  border-top-color: #111111;
+  border-right-color: #111111;
+  border-bottom-color: #111111;
+}
+
+.navbar-inverse .navbar-search .search-query:-moz-placeholder,
+.navbar-inverse .navbar-search .search-query:-ms-input-placeholder,
+.navbar-inverse .navbar-search .search-query::-webkit-input-placeholder,
+.breadcrumb > li > .divider {
+  color: #cccccc;
+}
+
+.navbar-inverse .btn-navbar {
+  background-color: #0e0e0e;
+  border-top-color: #030303;
+  border-right-color: #030303;
+  border-left-color: #030303;
+}
+
+.navbar-inverse .btn-navbar:hover,
+.navbar-inverse .btn-navbar:focus,
+.navbar-inverse .btn-navbar:active,
+.navbar-inverse .btn-navbar.active,
+.navbar-inverse .btn-navbar.disabled,
+.navbar-inverse .btn-navbar[disabled] {
+  background-color: #030303;
+}
+
+.navbar-inverse .btn-navbar:active,
+.navbar-inverse .btn-navbar.active,
+.modal-backdrop,
+.tooltip-inner,
+.tooltip.fade .tooltip-inner {
+  background-color: #000000;
+}
+
+.modal {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.tooltip.right .tooltip-arrow,
+#HwiToolHTMLContent #HwiToolPrintPopUp.modal,
+#HwiToolHTMLContent #HwiToolAlertMessagePopUp.modal,
+#HwiToolHTMLContent #HwiToolErrorMessagePopUp.modal {
+  border-right-color: #000000;
+}
+
+.tooltip.left .tooltip-arrow,
+#HwiToolHTMLContent #HwiToolPrintPopUp.modal,
+#HwiToolHTMLContent #HwiToolAlertMessagePopUp.modal,
+#HwiToolHTMLContent #HwiToolErrorMessagePopUp.modal {
+  border-left-color: #000000;
+}
+
+.popover-title {
+  border-bottom-color: #ebebeb;
+}
+
+.popover.top .arrow {
+  border-top-color: rgba(0, 0, 0, 0.25);
+}
+
+.popover.right .arrow {
+  border-right-color: rgba(0, 0, 0, 0.25);
+}
+
+.popover.left .arrow {
+  border-left-color: rgba(0, 0, 0, 0.25);
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus {
+  border-right-color: #666666;
+  border-left-color: #666666;
+}
+
+.label-important,
+.badge-important {
+  background-color: #6b6b6b;
+}
+
+.label-important[href],
+.badge-important[href] {
+  background-color: #555555;
+}
+
+.label-success,
+.badge-success {
+  background-color: #6d6d6d;
+}
+
+.label-info,
+.badge-info {
+  background-color: #747474;
+}
+
+.label-info[href],
+.badge-info[href] {
+  background-color: #5a5a5a;
+}
+
+.label-inverse,
+.badge-inverse,
+.carousel-caption {
+  background-color: #333333;
+}
+
+.label-inverse[href],
+.badge-inverse[href] {
+  background-color: #1a1a1a;
+}
+
+.progress .bar {
+  background-color: #707070;
+}
+
+.progress-striped .bar {
+  background-color: #797979;
+}
+
+.progress-danger.progress-striped .bar,
+.progress-striped .bar-danger {
+  background-color: #898989;
+}
+
+.progress-success.progress-striped .bar,
+.progress-striped .bar-success {
+  background-color: #9b9b9b;
+}
+
+.progress-info .bar,
+.progress .bar-info {
+  background-color: #959595;
+}
+
+.progress-info.progress-striped .bar,
+.progress-striped .bar-info {
+  background-color: #a5a5a5;
+}
+
+.progress-warning.progress-striped .bar,
+.progress-striped .bar-warning {
+  background-color: #bebebe;
+}
+
+.carousel-indicators li {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+#iToolVersion {
+  color: #e5e5e5;
+}
+
+.HwiToolBodyContainer,
+.HwiToolMeter.progress,
+.HwiToolGroupControls,
+.HwiToolSpanBackground,
+.btn.HwiToolButtonsOption .HwiToolCheckContainer,
+.HwiToolCalcBody .btn.HwiToolButtonsOption,
+.HwiToolCalcBody .btn.HwiToolButtonsOption:focus,
+.HwiToolCalcBody .btn.HwiToolButtonsOption.active,
+.HwiToolCalcBody .btn.HwiToolButtonsOption.active:focus,
+.HwiToolCalcBody .btn.HwiToolCircle,
+.HwiToolCalcBody .btn-group > .btn.HwiToolCircle,
+.HwiToolCalcBody .btn-group > .btn.HwiToolCircle + .btn.HwiToolCircle,
+.HwiToolCalcBody .btn-group > .btn.HwiToolCircle:first-child,
+#HwiToolHTMLContent #HwiToolContainer hr.HwiToolHorizLineGray,
+.HwiToolButton,
+.HwiToolPopupPrintButton {
+  border-top-color: #c7c7c7;
+  border-bottom-color: #c7c7c7;
+  border-left-color: #c7c7c7;
+}
+
+.HwiToolBodyContainer,
+.HwiToolMeter.progress,
+.HwiToolGroupControls,
+.HwiToolSpanBackground,
+.btn.HwiToolButtonsOption .HwiToolCheckContainer,
+.HwiToolCalcBody .btn.HwiToolButtonsOption,
+.HwiToolCalcBody .btn.HwiToolButtonsOption:focus,
+.HwiToolCalcBody .btn.HwiToolButtonsOption.active,
+.HwiToolCalcBody .btn.HwiToolButtonsOption.active:focus,
+.HwiToolCalcBody .btn.HwiToolCircle,
+.HwiToolCalcBody .btn-group > .btn.HwiToolCircle,
+.HwiToolCalcBody .btn-group > .btn.HwiToolCircle + .btn.HwiToolCircle,
+.HwiToolCalcBody .btn-group > .btn.HwiToolCircle:first-child,
+div.HwiToolVericalLineWhiteGray,
+#HwiToolHTMLContent #HwiToolContainer hr.HwiToolHorizLineGray,
+.HwiToolButton,
+.HwiToolPopupPrintButton {
+  border-right-color: #c7c7c7;
+}
+
+#HwiToolHTMLContent #HwiToolHeader .HwiToolTitle {
+  color: #656565;
+}
+
+.HwiToolMeter.progress .HwiToolBar.bar,
+.HwiToolCalcBody .btn.HwiToolButtonsOption:active,
+.HwiToolCalcBody .btn.HwiToolButtonsOption.active:active,
+.btn.HwiToolButtonsOption.active .HwiToolCircleCheckBox,
+.active .HwiRadioGendersWoman,
+.active .HwiRadioGendersMan,
+.HwiToolCircle.active .HwiToolCircleCheckBox,
+.HwiToolButtonText:active,
+.HwiToolPopupPrintButton:active,
+.HwiToolLevelIndicators .HwiToolLevel5 {
+  background-color: #828282;
+}
+
+.HwiToolCalcBody .btn.HwiToolButtonsOption,
+.HwiToolCalcBody .btn.HwiToolButtonsOption:focus,
+.HwiToolCalcBody .btn.HwiToolButtonsOption.active,
+.HwiToolCalcBody .btn.HwiToolButtonsOption.active:focus,
+#HwiToolHTMLContent #HwiToolPrintPopUp.modal,
+#HwiToolHTMLContent #HwiToolAlertMessagePopUp.modal,
+#HwiToolHTMLContent #HwiToolErrorMessagePopUp.modal,
+#HwiToolHTMLContent #IctPage9.HwiToolPage .HwiToolGroupControls {
+  color: #2e2e2e;
+}
+
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError input,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError button,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError .HwiToolCircle,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError select,
+#HwiToolHTMLContent #HwiToolContainer .HwiToolError .HwiToolCheckContainer {
+  border-color: #4c4c4c;
+}
+
+.HwiToolQuestion .HwiToolQuestionButton {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#HwiToolHTMLContent #HwiToolLevelMeter .HwiToolLevelsSeverity > div {
+  color: #585858;
+}
+
+table tbody tr td h3 {
+  color: #262626;
+}
+
+.HwiToolDatePicker a:focus {
+  border-color: #3b3b3b;
+}
+
+.HwiToolLevelIndicators .HwiToolLevel1 {
+  background-color: #f5f5f5;
+}
+
+.HwiToolLevelIndicators .HwiToolLevel2 {
+  background-color: #e2e2e2;
+}
+
+.HwiToolLevelIndicators .HwiToolLevel3 {
+  background-color: #c0c0c0;
+}
+
+.HwiToolLevelIndicators .HwiToolLevel4 {
+  background-color: #a0a0a0;
+}
